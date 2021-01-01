@@ -16,7 +16,7 @@ Beta version will only be available in Spanish. More languages and content will 
 
 ## Prototype
 
-![image](./public/Prototype_Screens.png)
+![image](./public/prototype_screens.png)
 
 ## Authors
 
