@@ -21,7 +21,7 @@ Beta version will only be available in Spanish. More languages and content will 
 ## Authors
 
 - Concept & content by [Lide Mancisidor](https://www.linkedin.com/in/lide-m-0792a31b4/), Lawyer specializing in Immigration & Children Rights.
-- Web development by [Celia Martín](https://www.linkedin.com/in/celiamf/), Front-End Developer & African Migration Specialist.
+- Design & web development by [Celia Martín](https://www.linkedin.com/in/celiamf/), Front-End Developer & African Migration Specialist.
 
 ### Attributions
 
