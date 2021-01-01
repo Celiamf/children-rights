@@ -14,11 +14,15 @@ Responsive web app (mobile first) developed with React.js, SASS & Git for versio
 
 Beta version will only be available in Spanish. More languages and content will be added at later stages.
 
+## Prototype
+
+![image](./recursos/Prototype/Prototype_Screens.png)
+
 ## Authors
 
 - Concept & content by [Lide Mancisidor](https://www.linkedin.com/in/lide-m-0792a31b4/), Lawyer specializing in Immigration & Children Rights.
-- Web development by [Celia Martín](https://www.linkedin.com/in/celiamf/), Front-End Developer.
+- Web development by [Celia Martín](https://www.linkedin.com/in/celiamf/), Front-End Developer & African Migration Specialist.
 
 ### Attributions
 
-<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> and by <a href="https://undraw.co/search" title="unDraw">unDraw</a>.</div>
+<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> by <a href="https://undraw.co/search" title="unDraw">unDraw</a> and by <a href="https://thenounproject.com/" title="The Nound Project">The Noun Project</a>.</div>
