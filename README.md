@@ -16,7 +16,7 @@ Beta version will only be available in Spanish. More languages and content will 
 
 ## Prototype
 
-![image](./recursos/Prototype/Prototype_Screens.png)
+![image](./public/Prototype_Screens.png)
 
 ## Authors
 
@@ -25,4 +25,4 @@ Beta version will only be available in Spanish. More languages and content will 
 
 ### Attributions
 
-<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> by <a href="https://undraw.co/search" title="unDraw">unDraw</a> and by <a href="https://thenounproject.com/" title="The Nound Project">The Noun Project</a>.</div>
+<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>, by <a href="https://undraw.co/search" title="unDraw">unDraw</a> and by <a href="https://thenounproject.com/" title="The Nound Project">The Noun Project</a>.</div>
