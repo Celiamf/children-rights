@@ -6,8 +6,8 @@ import ImgLanding from "./images/img_landing.svg";
 
 const Landing = () => {
   return (
-    <div className="landingBg">
-      <header>
+    <>
+      <header className="landingHeader">
         {/* <div className="language-picker js-language-picker">
           <form action="" className="language-picker__form">
             <label for="language-picker-select">Elige tu idioma </label>
@@ -31,21 +31,23 @@ const Landing = () => {
         <img
           src={ImgLanding}
           alt="Little people helping each other reach higher"
-          className="langingImg"
+          className="landingImg"
         />
       </header>
-      <main>
-        <section>
-          <h1 className="landingHeading">¡Hola!</h1>
-          <p>Bienvenido/a a la app que te informa sobre tus derechos</p>
+      <main className="landingMain">
+        <section className="landingIntro">
+          <h1 className="landingIntro__Heading">¡Hola!</h1>
+          <h3 className="landingIntro__Subheading">
+            Bienvenido/a a la app que te informa sobre tus derechos
+          </h3>
         </section>
-        <section>
-          <Link to="/WhereDoYouLive" className="landing__button">
+        <section className="landingAccess">
+          <Link to="/WhereDoYouLive" className="landingAccess__button">
             Tengo menos de 18 años y estoy en Madrid
           </Link>
         </section>
       </main>
-    </div>
+    </>
   );
 };
 

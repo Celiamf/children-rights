@@ -22,7 +22,7 @@ const WhereDoYouLive = () => {
             <i class="fas fa-chevron-circle-left"></i>
           </Link>
           <Link to="/" className="landing__button">
-            <i class="fas fa-home"></i>
+            <i className="fas fa-home"></i>
           </Link>
         </nav>
       </main>
