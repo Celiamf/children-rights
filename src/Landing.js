@@ -6,7 +6,7 @@ import ImgLanding from "./images/img_landing.svg";
 
 const Landing = () => {
   return (
-    <>
+    <div className="wrapper">
       <header className="landingHeader">
         {/* <div className="language-picker js-language-picker">
           <form action="" className="language-picker__form">
@@ -47,7 +47,7 @@ const Landing = () => {
           </Link>
         </section>
       </main>
-    </>
+    </div>
   );
 };
 

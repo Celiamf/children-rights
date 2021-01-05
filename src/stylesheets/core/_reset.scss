@@ -7,4 +7,10 @@ body {
   list-style: none;
   text-decoration: none;
   font-family: $fontText;
+  background-color: $colorBrand1;
+}
+
+h3 {
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
