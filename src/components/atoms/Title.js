@@ -8,6 +8,8 @@ const Title = (props) => {
 
 Title.propTypes = {
   text: PropTypes.string.isRequired,
+  tag: PropTypes.string,
+  className: PropTypes.string,
 };
 
 Title.defaultProps = {

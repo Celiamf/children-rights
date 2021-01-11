@@ -1,0 +1,11 @@
+@import "../../styles/settings/variables";
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1;
+  align-content: center;
+  justify-items: center;
+  background-color: $colorWhite;
+  padding: 12px;
+}

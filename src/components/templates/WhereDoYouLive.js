@@ -3,6 +3,7 @@ import "../../styles/ui/_links.scss";
 import { Link } from "react-router-dom";
 import Image from "../atoms/Image";
 import Footer from "../organisms/Footer";
+import Title from "../atoms/Title";
 
 const WhereDoYouLive = () => {
   return (
@@ -17,8 +18,8 @@ const WhereDoYouLive = () => {
         </div>
       </header>
       <main className="main">
-        <h2 className="heading">¿Dónde vives?</h2>
-        <Link to="/CenterMenu" className="btnLink">
+        <Title tag="h2" text="¿Dónde vives?" />
+        <Link to="/CenterMenu" className="btnLink btnLink--primary">
           En un centro de menores
         </Link>
         <Link to="/NoCenterInfo" className="btnLink btnLink--secondary">
