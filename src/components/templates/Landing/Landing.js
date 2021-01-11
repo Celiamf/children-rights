@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import Image from "../../atoms/Image/Image";
 import Title from "../../atoms/Title/Title";
 import Paragraph from "../../atoms/Paragraph/Paragraph";
+import Footer from "../../organisms/Footer/Footer";
 import ImgLanding from "../../../images/img_landing.svg";
 // import LanguageSelect from "../../molecules/LanguageSelect/LanguageSelect";
 
@@ -32,6 +33,7 @@ const Landing = () => {
           </Link>
         </section>
       </main>
+      <Footer />
     </div>
   );
 };

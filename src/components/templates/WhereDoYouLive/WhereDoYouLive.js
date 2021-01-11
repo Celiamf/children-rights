@@ -1,6 +1,7 @@
 import IconCenter from "../../../images/icon_center.svg";
 import "../../../styles/ui/_links.scss";
 import { Link } from "react-router-dom";
+import Image from "../../atoms/Image/Image";
 import Footer from "../../organisms/Footer/Footer";
 
 const WhereDoYouLive = () => {
@@ -8,7 +9,7 @@ const WhereDoYouLive = () => {
     <div className="wrapper">
       <header className="header">
         <div className="houseCircle">
-          <img
+          <Image
             src={IconCenter}
             alt="Home with a person inside"
             className="houseIcon"

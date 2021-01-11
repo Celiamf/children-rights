@@ -14,10 +14,17 @@
   &:hover {
     background-color: $colorTertiary;
   }
+
   &--secondary {
     background-color: $colorTertiary;
     &:hover {
       background-color: darken($colorTertiary, 15%);
     }
+  }
+
+  &--nav {
+    background-color: transparent;
+    display: inline-block;
+    color: $colorGreyPrimary;
   }
 }
