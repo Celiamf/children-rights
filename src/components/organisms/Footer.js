@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Button from "../../atoms/Button/Button";
+import Button from "../atoms/Button";
 
 const Footer = () => {
   return (

@@ -1,12 +1,12 @@
 // import Footer from "./Footer";
 import "./_landing.scss";
-import "../../../styles/ui/_links.scss";
+import "../../styles/ui/_links.scss";
 import { Link } from "react-router-dom";
-import Image from "../../atoms/Image/Image";
-import Title from "../../atoms/Title/Title";
-import Paragraph from "../../atoms/Paragraph/Paragraph";
-import Footer from "../../organisms/Footer/Footer";
-import ImgLanding from "../../../images/img_landing.svg";
+import Image from "../atoms/Image";
+import Title from "../atoms/Title";
+import Paragraph from "../atoms/Paragraph";
+import Footer from "../organisms/Footer";
+import ImgLanding from "../../images/img_landing.svg";
 // import LanguageSelect from "../../molecules/LanguageSelect/LanguageSelect";
 
 const Landing = () => {

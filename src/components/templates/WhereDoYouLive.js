@@ -1,8 +1,8 @@
-import IconCenter from "../../../images/icon_center.svg";
-import "../../../styles/ui/_links.scss";
+import IconCenter from "../../images/icon_center.svg";
+import "../../styles/ui/_links.scss";
 import { Link } from "react-router-dom";
-import Image from "../../atoms/Image/Image";
-import Footer from "../../organisms/Footer/Footer";
+import Image from "../atoms/Image";
+import Footer from "../organisms/Footer";
 
 const WhereDoYouLive = () => {
   return (

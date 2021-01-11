@@ -1,6 +1,6 @@
 import React from "react";
-import Landing from "./templates/Landing/Landing";
-import WhereDoYouLive from "./templates/WhereDoYouLive/WhereDoYouLive";
+import Landing from "./templates/Landing";
+import WhereDoYouLive from "./templates/WhereDoYouLive";
 import { Switch, Route } from "react-router-dom";
 import "./App.scss";
 
