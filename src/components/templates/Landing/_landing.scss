@@ -28,19 +28,6 @@
   margin-top: 36px;
   // width: 60%;
   color: $colorWhite;
-
-  &__Heading {
-    font-family: $fontTitles;
-    font-size: 48px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-  }
-  &__Subheading {
-    font-family: $fontText;
-    width: 80%;
-    font-size: 14px;
-    font-weight: 600;
-  }
 }
 
 .landingAccess {
@@ -54,18 +41,4 @@
   justify-content: center;
   border-top-left-radius: 32px;
   border-top-right-radius: 32px;
-
-  &__button {
-    background-color: $colorBrand2;
-    color: $colorGreyPrimary;
-    width: 80%;
-    border-radius: 25px;
-    margin: 36px;
-    padding: 6px 32px;
-    text-decoration: none;
-    font-weight: 700;
-    &:hover {
-      background-color: $colorTertiary;
-    }
-  }
 }
