@@ -1,19 +1,18 @@
 // import Footer from "./Footer";
-import "./_landing.scss";
-import "../../styles/ui/_links.scss";
 import { Link } from "react-router-dom";
+import "./_landing.scss";
+import "../../styles/elements/_links.scss";
+import ImgLanding from "../../images/img_landing.svg";
 import Image from "../atoms/Image";
-import Title from "../atoms/Title";
+import Wrapper from "../atoms/Wrapper";
+import Heading from "../atoms/Heading";
 import Paragraph from "../atoms/Paragraph";
 import Footer from "../organisms/Footer";
-import ImgLanding from "../../images/img_landing.svg";
-// import LanguageSelect from "../../molecules/LanguageSelect/LanguageSelect";
 
 const Landing = () => {
   return (
-    <div className="wrapper">
+    <Wrapper>
       <header className="landingHeader">
-        {/* <LanguageSelect/> */}
         <Image
           src={ImgLanding}
           alt="Little people helping each other reach higher"
@@ -21,7 +20,7 @@ const Landing = () => {
       </header>
       <main className="landingMain">
         <section className="landingIntro">
-          <Title tag="h1" className="landingIntro__Heading" text="¡Hola!" />
+          <Heading tag="h1" className="landingIntro__Heading" text="¡Hola!" />
           <Paragraph
             className="landingIntro__Subheading"
             text="Bienvenido/a a la app que te informa sobre tus derechos"
@@ -34,7 +33,7 @@ const Landing = () => {
         </section>
       </main>
       <Footer />
-    </div>
+    </Wrapper>
   );
 };
 

@@ -1,14 +1,13 @@
 @import "../settings/variables";
 
 .btnLink {
-  background-color: $colorBrand2;
   display: block;
   text-align: center;
-  color: $colorGreyPrimary;
-  width: 80%;
   border-radius: 25px;
-  margin: 36px;
-  padding: 6px 32px;
+  margin: 2em;
+  padding: 1em 1.5em;
+  background-color: $colorBrand2;
+  color: $colorGreyPrimary;
   text-decoration: none;
   font-weight: 700;
   &:hover {

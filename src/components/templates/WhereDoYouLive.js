@@ -1,24 +1,26 @@
-import IconCenter from "../../images/icon_center.svg";
-import "../../styles/ui/_links.scss";
 import { Link } from "react-router-dom";
+import "../../styles/elements/_links.scss";
+import IconCenter from "../../images/icon_center.svg";
 import Image from "../atoms/Image";
+import Wrapper from "../atoms/Wrapper";
+import Header from "../atoms/Header";
+import Heading from "../atoms/Heading";
 import Footer from "../organisms/Footer";
-import Title from "../atoms/Title";
 
 const WhereDoYouLive = () => {
   return (
-    <div className="wrapper">
-      <header className="header">
+    <Wrapper>
+      <Header>
         <div className="houseCircle">
           <Image
             src={IconCenter}
             alt="Home with a person inside"
-            className="houseIcon"
+            className=""
           />
         </div>
-      </header>
+      </Header>
       <main className="main">
-        <Title tag="h2" text="¿Dónde vives?" />
+        <Heading tag="h2" text="¿Dónde vives?" />
         <Link to="/CenterMenu" className="btnLink btnLink--primary">
           En un centro de menores
         </Link>
@@ -27,7 +29,7 @@ const WhereDoYouLive = () => {
         </Link>
       </main>
       <Footer />
-    </div>
+    </Wrapper>
   );
 };
 

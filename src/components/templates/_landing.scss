@@ -1,44 +1,34 @@
 @import "../../styles/settings/variables";
 
-.wrapper {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, 1fr), 0.5fr;
-  height: 100vh;
-}
-
 .landingHeader {
   display: flex;
   justify-content: center;
-  grid-row: 1/3;
+  padding: 1.5em 1em 0 1em;
 }
 
 .landingMain {
-  grid-row: 3/5;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2em;
 }
 
 .landingIntro {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   text-align: center;
-  margin-top: 36px;
-  // width: 60%;
   color: $colorWhite;
 }
 
 .landingAccess {
-  flex-grow: 6;
-  background-color: $colorWhite;
-  margin-top: 12px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  text-align: center;
   justify-content: center;
+  flex-grow: 1;
   border-top-left-radius: 32px;
   border-top-right-radius: 32px;
+  width: 100vw;
+  background-color: $colorWhite;
 }
