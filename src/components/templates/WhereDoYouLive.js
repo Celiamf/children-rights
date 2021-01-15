@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../../styles/elements/_links.scss";
+import "./_whereDoYouLive.scss";
 import IconCenter from "../../images/icon_center.svg";
 import Image from "../atoms/Image";
 import Wrapper from "../atoms/Wrapper";

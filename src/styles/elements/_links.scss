@@ -3,8 +3,10 @@
 .btnLink {
   display: block;
   text-align: center;
+  min-width: 15em;
   border-radius: 25px;
-  margin: 2em;
+
+  margin: 1em;
   padding: 1em 1.5em;
   background-color: $colorBrand2;
   color: $colorGreyPrimary;

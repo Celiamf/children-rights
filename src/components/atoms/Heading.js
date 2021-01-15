@@ -3,7 +3,9 @@ import PropTypes from "prop-types";
 
 const Heading = (props) => {
   const { tag: Tag } = props;
-  return <Tag className={`heading ${props.className}`}>{props.text}</Tag>;
+  return (
+    <Tag className={`heading heading--${props.className}`}>{props.text}</Tag>
+  );
 };
 
 Heading.propTypes = {

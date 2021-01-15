@@ -1,10 +1,9 @@
 @import "../../styles/settings/variables";
 
-.main {
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   color: $colorWhite;
-  margin-top: 2em;
 }
