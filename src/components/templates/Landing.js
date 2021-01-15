@@ -5,22 +5,23 @@ import "../../styles/elements/_links.scss";
 import ImgLanding from "../../images/img_landing.svg";
 import Image from "../atoms/Image";
 import Wrapper from "../atoms/Wrapper";
+import Header from "../atoms/Header";
 import Heading from "../atoms/Heading";
 import Paragraph from "../atoms/Paragraph";
 import Footer from "../organisms/Footer";
 
 const Landing = () => {
   return (
-    <Wrapper>
-      <header className="landingHeader">
+    <Wrapper className="landing">
+      <Header className="landing">
         <Image
           src={ImgLanding}
           alt="Little people helping each other reach higher"
         />
-      </header>
+      </Header>
       <main className="landingMain">
         <section className="landingIntro">
-          <Heading tag="h1" className="landingIntro__Heading" text="¡Hola!" />
+          <Heading tag="h1" text="¡Hola!" />
           <Paragraph
             className="landingIntro__Subheading"
             text="Bienvenido/a a la app que te informa sobre tus derechos"

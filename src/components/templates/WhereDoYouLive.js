@@ -11,13 +11,11 @@ const WhereDoYouLive = () => {
   return (
     <Wrapper>
       <Header>
-        <div className="houseCircle">
-          <Image
-            src={IconCenter}
-            alt="Home with a person inside"
-            className=""
-          />
-        </div>
+        <Image
+          src={IconCenter}
+          alt="Home with a person inside"
+          className="whereYouLive"
+        />
       </Header>
       <main className="main">
         <Heading tag="h2" text="¿Dónde vives?" />
