@@ -18,3 +18,14 @@
   width: 100vw;
   background-color: $colorWhite;
 }
+
+.languageBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  border: none;
+  background-color: transparent;
+  color: $colorGreyPrimary;
+  font-size: 2em;
+}

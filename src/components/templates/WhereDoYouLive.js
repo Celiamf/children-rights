@@ -18,7 +18,7 @@ const WhereDoYouLive = () => {
         />
       </Header>
       <main className="main">
-        <Heading tag="h2" text="¿Dónde vives?" />
+        <Heading tag="h2" text="¿Dónde vives?" className="secondary" />
         <Link to="/CenterMenu" className="btnLink btnLink--primary">
           En un centro de menores
         </Link>

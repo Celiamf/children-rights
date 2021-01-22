@@ -1,6 +1,6 @@
 .wrapper {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(2, minmax(1fr, 3rem)), 3rem;
+  grid-template-rows: repeat(2, minmax(1fr, 4rem)), 0.5rem;
   height: 100vh;
 }

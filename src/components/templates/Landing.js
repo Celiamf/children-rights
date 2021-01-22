@@ -8,12 +8,14 @@ import Header from "../atoms/Header";
 import Container from "../atoms/Container";
 import Heading from "../atoms/Heading";
 import Paragraph from "../atoms/Paragraph";
-import Footer from "../organisms/Footer";
 
 const Landing = () => {
   return (
     <Wrapper className="landing">
       <Header className="landing">
+        <button className="languageBtn">
+          <i className="fas fa-language "></i>
+        </button>
         <Image
           src={ImgLanding}
           alt="Little people helping each other reach higher"
@@ -21,7 +23,7 @@ const Landing = () => {
       </Header>
       <main className="landingMain">
         <Container>
-          <Heading text="¡Hola!" className="landing" />
+          <Heading text="¡Hola!" className="primary" />
           <Paragraph
             className="landingIntro__Subheading"
             text="Bienvenido/a a la app que te informa sobre tus derechos"
@@ -33,7 +35,6 @@ const Landing = () => {
           </Link>
         </section>
       </main>
-      <Footer />
     </Wrapper>
   );
 };

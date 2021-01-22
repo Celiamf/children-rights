@@ -4,7 +4,10 @@
   font-family: $fontTitles;
   font-size: 48px;
   letter-spacing: 3px;
-  &--landing {
+  &--primary {
     text-transform: uppercase;
+  }
+  &--secondary {
+    font-size: 2em;
   }
 }
