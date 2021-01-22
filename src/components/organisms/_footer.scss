@@ -3,10 +3,14 @@
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1;
+  // height: max-content;
   align-content: center;
   justify-items: center;
   background-color: $colorWhite;
-  // padding: 12px;
   box-shadow: 0 0 6px 0 $colorGreyPrimary;
+}
+
+.fa-language {
+  transform: translate(0, -0.6rem);
+  font-size: 2.6rem;
 }

@@ -13,8 +13,8 @@
   align-items: center;
   justify-content: center;
   flex-grow: 1;
-  border-top-left-radius: 32px;
-  border-top-right-radius: 32px;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
   width: 100vw;
   background-color: $colorWhite;
 }
@@ -27,10 +27,5 @@
   border: none;
   background-color: transparent;
   color: $colorGreyPrimary;
-  font-size: 2em;
-}
-
-.fa-language {
-  transform: translate(0, -0.25em);
-  font-size: 0.9em;
+  font-size: 2rem;
 }
