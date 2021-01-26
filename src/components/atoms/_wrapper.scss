@@ -7,6 +7,6 @@
   }
   &--whereYouLive {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 6rem;
+    grid-template-rows: minmax(17rem, 2fr) minmax(18rem, 1fr) 6rem;
   }
 }
