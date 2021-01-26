@@ -1,0 +1,12 @@
+@import "../../styles/settings/variables";
+
+.iconLink {
+  color: $colorGreyPrimary;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  padding: 0.5rem;
+  &--nav {
+    height: min-content;
+  }
+}

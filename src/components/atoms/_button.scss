@@ -9,4 +9,33 @@
   :hover {
     cursor: pointer;
   }
+  &--nav {
+    background-color: transparent;
+    display: inline-block;
+    color: $colorGreyPrimary;
+    height: 52px;
+  }
+}
+
+.btnLink {
+  display: block;
+  text-align: center;
+  min-width: 15em;
+  border-radius: 25px;
+  margin: 0 2.5em;
+  padding: 1em 1.7em;
+  background-color: $colorBrand2;
+  color: $colorGreyPrimary;
+  text-decoration: none;
+  font-weight: 700;
+  &:hover {
+    background-color: $colorTertiary;
+  }
+
+  &--secondary {
+    background-color: $colorTertiary;
+    &:hover {
+      background-color: darken($colorTertiary, 15%);
+    }
+  }
 }

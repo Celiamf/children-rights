@@ -11,7 +11,8 @@ const Footer = () => {
       <Link to="/" className="iconLink iconLink--nav">
         <i className="fas fa-home"></i>
       </Link>
-      <Button content={<i className="fas fa-language"></i>} />
+      <Button className="nav" content={<i className="fas fa-language"></i>} />
+      <small className="copy">@TusDerechos 2021</small>
     </footer>
   );
 };

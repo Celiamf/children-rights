@@ -3,7 +3,8 @@
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  // height: max-content;
+  grid-template-rows: auto auto;
+  row-gap: 0.5rem;
   align-content: center;
   justify-items: center;
   background-color: $colorWhite;
@@ -13,4 +14,9 @@
 .fa-language {
   transform: translate(0, -0.6rem);
   font-size: 2.6rem;
+}
+
+.copy {
+  grid-column: span 3;
+  font-size: 10px;
 }
