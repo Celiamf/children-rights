@@ -55,6 +55,23 @@ h4 {
   margin-block-end: 0;
 }
 
+li {
+  list-style-type: none;
+  text-indent: 0;
+  margin: 0;
+  padding: 0;
+  text-align: -webkit-match-parent;
+}
+
+ul {
+  list-style-type: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0;
+}
+
 /* Grouping content
    ========================================================================== */
 

@@ -1,0 +1,13 @@
+@import "../../styles/settings/variables";
+
+.menuSection {
+  border-top: 0.1em solid $colorWhite;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 5.5rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+}

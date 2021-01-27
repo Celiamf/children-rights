@@ -2,12 +2,17 @@
 
 .heading {
   font-family: $fontTitles;
-  font-size: 48px;
+  font-size: 3rem;
   letter-spacing: 3px;
   &--primary {
     text-transform: uppercase;
   }
   &--secondary {
     font-size: 2em;
+  }
+  &--primaryMenu {
+    text-transform: uppercase;
+    letter-spacing: 0;
+    font-size: 2.5rem;
   }
 }
