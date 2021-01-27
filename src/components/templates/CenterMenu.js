@@ -13,13 +13,13 @@ const CenterMenu = () => {
           <Heading tag="h2" text="En el centro" className="primaryMenu" />
         </div>
         <ul>
-          <MenuSection text="Tengo un problema con mi edad" />
           <MenuSection text="¿Qué es un centro o piso de menores?" />
+          <MenuSection text="Tengo un problema con mi edad" />
           <MenuSection text="Tengo un problema con mi residencia" />
           <MenuSection text="Mis derechos como menor" />
         </ul>
       </main>
-      <Footer />
+      <Footer to="/WhereDoYouLive" />
     </Wrapper>
   );
 };

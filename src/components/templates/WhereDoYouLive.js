@@ -25,7 +25,7 @@ const WhereDoYouLive = () => {
           En otro sitio
         </Link>
       </main>
-      <Footer />
+      <Footer to="/" />
     </Wrapper>
   );
 };
