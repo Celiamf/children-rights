@@ -29,7 +29,7 @@ const Landing = () => {
           />
         </Container>
         <section className="landingAccess">
-          <Link to="/WhereDoYouLive" className="btnLink">
+          <Link to="/WhereYouLive" className="btnLink">
             Tengo menos de 18 años y estoy en Madrid
           </Link>
         </section>
