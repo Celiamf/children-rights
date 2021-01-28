@@ -4,11 +4,12 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto auto;
-  row-gap: 0.5rem;
+  grid-row-gap: 0.5rem;
   align-content: center;
   justify-items: center;
   background-color: $colorWhite;
   box-shadow: 0 0 6px 0 $colorGreyPrimary;
+  padding: 0.5rem 0;
 }
 
 .fa-language {

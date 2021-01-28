@@ -2,16 +2,18 @@
 
 .wrapper {
   display: grid;
-  height: 100vh;
+  height: 100%;
   grid-template-columns: 1fr;
   &--landing {
     grid-template-rows: 1fr 1fr;
   }
   &--whereYouLive {
-    grid-template-rows: minmax(17rem, 2fr) minmax(18.5rem, 1fr) 6rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr auto;
+    background-color: $colorBrand1;
   }
   &--centerMenu {
-    grid-template-rows: 1fr 6rem;
+    grid-template-rows: 1fr auto;
     background-color: $colorWhite;
   }
 }
