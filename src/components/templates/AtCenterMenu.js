@@ -1,5 +1,4 @@
 import "./_atCenterMenu.scss";
-
 import Wrapper from "../atoms/Wrapper";
 import Heading from "../atoms/Heading";
 import MenuSection from "../atoms/MenuSection";
@@ -15,14 +14,14 @@ const AtCenterMenu = () => {
         <ul>
           <MenuSection
             text="¿Qué es un centro o piso de menores?"
-            to="/CenterDef"
+            to="/UnderConstruction"
           />
           <MenuSection text="Tengo un problema con mi edad" to="/Age" />
           <MenuSection
             text="Tengo un problema con mi residencia"
-            to="/Residence"
+            to="/UnderConstruction"
           />
-          <MenuSection text="Mis derechos como menor" to="/" />
+          <MenuSection text="Mis derechos como menor" to="/UnderConstruction" />
         </ul>
       </main>
       <Footer to="/WhereYouLive" />

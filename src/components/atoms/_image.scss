@@ -4,11 +4,13 @@
   max-width: 82%;
   height: 100%;
   &--whereYouLive {
-    color: tomato;
     background-color: $colorWhite;
     box-shadow: 0 0 6px 0 $colorGreyPrimary;
     border-radius: 50%;
     width: 12rem;
     height: 12rem;
+  }
+  &--underConstruction {
+    height: 60%;
   }
 }

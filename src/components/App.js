@@ -5,6 +5,7 @@ import AtCenterMenu from "./templates/AtCenterMenu";
 import CenterDef from "./templates/CenterDef";
 import Age from "./templates/Age";
 import Residence from "./templates/Residence";
+import UnderConstruction from "./templates/UnderConstruction";
 import { Switch, Route } from "react-router-dom";
 import "./App.scss";
 
@@ -18,6 +19,7 @@ class App extends React.Component {
         <Route path="/CenterDef" component={CenterDef} />
         <Route path="/Age" component={Age} />
         <Route path="/Residence" component={Residence} />
+        <Route path="/UnderConstruction" component={UnderConstruction} />
       </Switch>
     );
   }

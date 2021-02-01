@@ -21,7 +21,7 @@ const WhereYouLive = () => {
         <Link to="/AtCenterMenu" className="btnLink btnLink--primary">
           En un centro de menores
         </Link>
-        <Link to="/NoCenterInfo" className="btnLink btnLink--secondary">
+        <Link to="/UnderConstruction" className="btnLink btnLink--secondary">
           En otro sitio
         </Link>
       </main>

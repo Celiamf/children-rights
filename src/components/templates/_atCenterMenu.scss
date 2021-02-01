@@ -13,5 +13,8 @@
   color: $colorWhite;
   &__intro {
     padding: 2em 0 1em 0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: $colorSecondary;
   }
 }
