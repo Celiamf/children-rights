@@ -16,10 +16,7 @@ const AtCenterMenu = () => {
             text="¿Qué es un centro o piso de menores?"
             to="/UnderConstruction"
           />
-          <MenuSection
-            text="Tengo un problema con mi edad"
-            to="/UnderConstruction"
-          />
+          <MenuSection text="Tengo un problema con mi edad" to="/Age" />
           <MenuSection
             text="Tengo un problema con mi residencia"
             to="/UnderConstruction"

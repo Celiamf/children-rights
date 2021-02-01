@@ -7,7 +7,7 @@ import Footer from "../organisms/Footer";
 
 const UnderConstruction = () => {
   return (
-    <Wrapper className="underConstruction">
+    <Wrapper className="twoRowGrid">
       <main className="underConstructionMain">
         <Image
           src={ImgConstructing}
