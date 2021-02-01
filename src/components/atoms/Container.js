@@ -1,5 +1,5 @@
-import "./_container.scss";
 import PropTypes from "prop-types";
+import "./_container.scss";
 
 const Container = (props) => {
   return (

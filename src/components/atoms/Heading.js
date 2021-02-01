@@ -1,5 +1,5 @@
-import "./_heading.scss";
 import PropTypes from "prop-types";
+import "./_heading.scss";
 
 const Heading = (props) => {
   const { tag: Tag } = props;

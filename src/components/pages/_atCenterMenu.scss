@@ -3,18 +3,22 @@
 .atCenterMenuMain {
   display: flex;
   flex-direction: column;
-  align-content: center;
-  justify-items: center;
   background-color: $colorBrand1;
   text-align: center;
-  margin: 2.5em 2.5em 0 2.5em;
+  margin: 2.5em 2em 0 2.5em;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   color: $colorWhite;
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
   &__intro {
-    padding: 2em 0 1em 0;
+    padding: 1.5em 0 1em 0;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     background-color: $colorSecondary;
+    color: $colorGreyPrimary;
   }
 }

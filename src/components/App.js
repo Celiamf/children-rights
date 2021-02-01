@@ -1,11 +1,11 @@
 import React from "react";
-import Landing from "./templates/Landing";
-import WhereYouLive from "./templates/WhereYouLive";
-import AtCenterMenu from "./templates/AtCenterMenu";
-import CenterDef from "./templates/CenterDef";
-import Age from "./templates/Age";
-import Residence from "./templates/Residence";
-import UnderConstruction from "./templates/UnderConstruction";
+import Landing from "./pages/Landing";
+import WhereYouLive from "./pages/WhereYouLive";
+import AtCenterMenu from "./pages/AtCenterMenu";
+import CenterDef from "./pages/CenterDef";
+import Age from "./pages/Age";
+import Residence from "./pages/Residence";
+import UnderConstruction from "./pages/UnderConstruction";
 import { Switch, Route } from "react-router-dom";
 import "./App.scss";
 

@@ -1,8 +1,8 @@
-import "./_atCenterMenu.scss";
 import Wrapper from "../atoms/Wrapper";
 import Heading from "../atoms/Heading";
 import MenuSection from "../atoms/MenuSection";
 import Footer from "../organisms/Footer";
+import "./_atCenterMenu.scss";
 
 const AtCenterMenu = () => {
   return (
@@ -11,12 +11,15 @@ const AtCenterMenu = () => {
         <div className="atCenterMenuMain__intro">
           <Heading tag="h2" text="En el centro" className="primaryMenu" />
         </div>
-        <ul>
+        <ul className="atCenterMenuMain__menu">
           <MenuSection
             text="¿Qué es un centro o piso de menores?"
             to="/UnderConstruction"
           />
-          <MenuSection text="Tengo un problema con mi edad" to="/Age" />
+          <MenuSection
+            text="Tengo un problema con mi edad"
+            to="/UnderConstruction"
+          />
           <MenuSection
             text="Tengo un problema con mi residencia"
             to="/UnderConstruction"

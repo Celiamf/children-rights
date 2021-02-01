@@ -1,7 +1,6 @@
-// import { Link } from "react-router-dom";
-import "./_age.scss";
 import Wrapper from "../atoms/Wrapper";
 import Footer from "../organisms/Footer";
+import "./_age.scss";
 
 const Age = () => {
   return (

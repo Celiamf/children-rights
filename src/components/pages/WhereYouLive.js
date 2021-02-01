@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import "./_whereYouLive.scss";
-import IconCenter from "../../images/icon_center.svg";
-import Image from "../atoms/Image";
 import Wrapper from "../atoms/Wrapper";
 import Heading from "../atoms/Heading";
+import IconCenter from "../../images/icon_center.svg";
+import Image from "../atoms/Image";
 import Footer from "../organisms/Footer";
+import "./_whereYouLive.scss";
 
 const WhereYouLive = () => {
   return (

@@ -19,11 +19,14 @@ html {
 
 /**
  * Remove the margin in all browsers.
+ * CELIA - Remove text decoration & define font family & bg color.
  */
 
 body {
   margin: 0;
   padding: 0;
+  font-family: $fontText;
+  background-color: $colorBrand1;
 }
 
 /**

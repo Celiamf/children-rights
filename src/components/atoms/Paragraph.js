@@ -1,5 +1,5 @@
-import "./_paragraph.scss";
 import PropTypes from "prop-types";
+import "./_paragraph.scss";
 
 const Paragraph = (props) => {
   return <p className={`paragraph ${props.className}`}>{props.text}</p>;

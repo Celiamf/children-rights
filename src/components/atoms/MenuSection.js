@@ -1,6 +1,6 @@
-import "./_menuSection.scss";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
+import "./_menuSection.scss";
 
 const MenuSection = (props) => {
   return (
