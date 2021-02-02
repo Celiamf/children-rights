@@ -8,7 +8,7 @@ import "./_whereYouLive.scss";
 
 const WhereYouLive = () => {
   return (
-    <Wrapper className="whereYouLive">
+    <Wrapper className="threeRowGrid">
       <header className="whereYouLiveHeader">
         <Image
           src={IconCenter}

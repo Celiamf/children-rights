@@ -6,7 +6,7 @@ import "./_atCenterMenu.scss";
 
 const AtCenterMenu = () => {
   return (
-    <Wrapper className="atCenterMenu">
+    <Wrapper className="twoRowGrid wrapper__twoRowGrid--white">
       <main className="atCenterMenuMain">
         <div className="atCenterMenuMain__intro">
           <Heading tag="h2" text="En el centro" className="primaryMenu" />

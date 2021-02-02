@@ -4,19 +4,17 @@
   display: grid;
   height: 100%;
   grid-template-columns: 1fr;
-  &--landing {
+  &__landing {
     grid-template-rows: 1fr 1fr;
   }
-  &--whereYouLive {
+  &__twoRowGrid {
+    grid-template-rows: 1fr auto;
+    &--white {
+      background-color: $colorWhite;
+    }
+  }
+  &__threeRowGrid {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr auto;
-    background-color: $colorBrand1;
-  }
-  &--atCenterMenu {
-    grid-template-rows: 1fr auto;
-    background-color: $colorWhite;
-  }
-  &--twoRowGrid {
-    grid-template-rows: 1fr auto;
   }
 }
