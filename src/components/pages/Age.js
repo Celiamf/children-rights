@@ -4,6 +4,7 @@ import ImgFiscal from "../../images/imgFiscal.svg";
 import Collapsible from "react-collapsible";
 import Footer from "../organisms/Footer";
 import "./_age.scss";
+import "../../styles/components/_collapsible.scss";
 
 const Age = () => {
   return (
