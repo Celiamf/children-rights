@@ -3,15 +3,15 @@
 .ageHeader {
   display: flex;
   align-content: space-around;
-  align-items: center;
-  margin: 2rem 0 2rem 2rem;
-
+  align-items: flex-end;
+  margin: 2rem 2rem 2rem 2rem;
   color: $colorBlack;
   &__text {
     margin: 0;
     border-left: solid 0.5rem $colorWhite;
     padding-left: 1rem;
     font-weight: 600;
+    line-height: 1.35rem;
   }
 }
 

@@ -11,15 +11,17 @@ const Age = () => {
     <Wrapper className="threeRowGrid">
       <header className="ageHeader">
         <p className="ageHeader__text">
-          Si tienes menos de 18 años, estás solo/a en España y no tienes
-          documentación de tu país, la Fiscalía estudiará tu edad para confirmar
-          que eres menor y protegerte.
+          Si tienes <strong className="breakLine">menos de 18 años,</strong>{" "}
+          estás <strong>solo/a en España</strong> y{" "}
+          <strong className="breakLine">no tienes pasaporte,</strong> la
+          Fiscalía estudiará tu edad para confirmar que eres menor y protegerte.
         </p>
         <Image
           src={ImgFiscal}
           alt="Dibujo de una jueza"
           className="age"
         ></Image>
+        <div className="ageImg threshold"></div>
       </header>
       <main className="ageMain">
         <Collapsible trigger="¿Cómo demuestro que soy menor?">

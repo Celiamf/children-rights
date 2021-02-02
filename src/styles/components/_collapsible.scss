@@ -1,6 +1,5 @@
 @import "../../styles/settings/variables";
 
-// The main container element
 .Collapsible {
   background-color: $colorWhite;
   margin-bottom: 0.5rem;
@@ -9,7 +8,6 @@
   border-bottom-right-radius: 20px;
 }
 
-//The content within the collaspable area
 .Collapsible__contentInner {
   padding: 10px;
   border-top: 1px solid $colorGreySecondary;
@@ -19,7 +17,6 @@
   }
 }
 
-//The link which when clicked opens the collapsable area
 .Collapsible__trigger {
   display: block;
   position: relative;
