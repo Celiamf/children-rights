@@ -66,7 +66,7 @@ const Age = () => {
             </li>
           </ul>
         </Collapsible>
-        <Collapsible trigger="¿La decisión de la Fiscalía?">
+        <Collapsible trigger="La decisión de la Fiscalía">
           <ul>
             <li>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
