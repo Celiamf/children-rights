@@ -18,10 +18,9 @@ const Age = () => {
         </p>
         <Image
           src={ImgFiscal}
-          alt="Dibujo de una jueza"
+          alt="Drawing of a woman judge"
           className="age"
         ></Image>
-        <div className="ageImg threshold"></div>
       </header>
       <main className="ageMain">
         <Collapsible trigger="¿Cómo demuestro que soy menor?">
