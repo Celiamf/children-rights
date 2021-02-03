@@ -10,7 +10,7 @@ import Paragraph from "../atoms/Paragraph";
 
 const Landing = () => {
   return (
-    <Wrapper className="landing">
+    <Wrapper className="twoRowGrid">
       <header className="landingHeader">
         <button className="languageBtn">
           <i className="fas fa-language "></i>

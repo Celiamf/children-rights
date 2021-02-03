@@ -4,9 +4,6 @@
   display: grid;
   height: 100%;
   grid-template-columns: 1fr;
-  &__landing {
-    grid-template-rows: 1fr 1fr;
-  }
   &__twoRowGrid {
     grid-template-rows: 1fr auto;
     &--white {
