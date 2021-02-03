@@ -9,4 +9,10 @@
   font-weight: 600;
   line-height: 1.5rem;
   border-top: 0.1em solid $colorWhite;
+  &:hover {
+    background-color: darken($colorSecondary, 15%);
+  }
+  &:active {
+    background-color: $colorSecondary;
+  }
 }

@@ -1,8 +1,15 @@
 @import "../../styles/settings/variables";
 
+.link {
+  padding: 1.5rem;
+}
+
 .iconLink {
   color: $colorGreyPrimary;
   border: none;
   font-size: 2rem;
   padding: 0.5rem;
+  &:active {
+    color: $colorGreySecondary;
+  }
 }

@@ -8,8 +8,11 @@
   padding: 0.5rem;
   display: inline-block;
   height: 54px;
-  :hover {
+  &:hover {
     cursor: pointer;
+  }
+  &:active {
+    color: $colorGreySecondary;
   }
 }
 
@@ -31,7 +34,7 @@
   &--secondary {
     background-color: $colorTertiary;
     &:hover {
-      background-color: darken($colorTertiary, 15%);
+      background-color: $colorBrand2;
     }
   }
 }
