@@ -1,4 +1,4 @@
-# Tus Derechos web app
+# Children's Rights web app
 
 This is a collaborative project aimed to contribute improving the life of children who have migrated to Spain alone. These children usually lack access to information about their rights and how to defend themselves when these are violated.
 
