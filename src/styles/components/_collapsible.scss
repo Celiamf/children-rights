@@ -49,6 +49,10 @@
     opacity: 0.5;
     background-color: grey;
   }
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .CustomTriggerCSS {
