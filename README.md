@@ -25,4 +25,6 @@ Beta version will only be available in Spanish. More languages and content will 
 
 ### Attributions
 
-<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>, by <a href="https://undraw.co/search" title="unDraw">unDraw</a> and by <a href="https://thenounproject.com/" title="The Nound Project">The Noun Project</a>.</div>
+<p>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>, by <a href="https://undraw.co/search" title="unDraw">unDraw</a> and by <a href="https://thenounproject.com/" title="The Nound Project">The Noun Project</a>.</p>
+
+<p>React Responsive Collapsible Section Component (Collapsible) by <a href="https://github.com/glennflanagan/react-collapsible" title="Glenn Flanagan's Github">Glenn Flanagan</a> - Licensed under the MIT License - Copyright (c) 2017 Glenn Flanagan.
