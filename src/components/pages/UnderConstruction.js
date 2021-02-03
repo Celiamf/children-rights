@@ -15,7 +15,7 @@ const UnderConstruction = () => {
           className="underConstruction"
         />
         <Paragraph
-          className="underConstructionIntro__Subheading"
+          className="underConstructionIntro__subtitle"
           text="Aún estamos trabajando en esta página"
         />
       </main>

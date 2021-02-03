@@ -6,17 +6,17 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto auto;
-  grid-row-gap: 0.5rem;
+  grid-row-gap: 0.2rem;
   align-content: center;
   justify-items: center;
   background-color: $colorWhite;
   box-shadow: 0 0 6px 0 $colorGreyPrimary;
-  padding: 0.5rem 0;
+  padding: 0.3rem 0 1rem 0;
 }
 
 .fa-language {
-  transform: translate(0, -0.6rem);
-  font-size: 2.6rem;
+  transform: translateY(-0.7rem);
+  font-size: 2.95rem;
 }
 
 .copy {

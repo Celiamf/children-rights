@@ -2,7 +2,9 @@
 
 .img {
   max-width: 82%;
-  height: 100%;
+  &--landing {
+    height: 100%;
+  }
   &--whereYouLive {
     background-color: $colorWhite;
     box-shadow: 0 0 6px 0 $colorGreyPrimary;

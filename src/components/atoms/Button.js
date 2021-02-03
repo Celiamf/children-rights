@@ -1,9 +1,7 @@
 import PropTypes from "prop-types";
 import "./_button.scss";
 
-const Button = (props) => (
-  <button className={`btn btn--${props.className}`}>{props.content}</button>
-);
+const Button = (props) => <button className="btn">{props.content}</button>;
 
 Button.propTypes = {
   content: PropTypes.any.isRequired,

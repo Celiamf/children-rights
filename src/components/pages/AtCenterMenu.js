@@ -1,15 +1,15 @@
+import "./_atCenterMenu.scss";
 import Wrapper from "../atoms/Wrapper";
-import Heading from "../atoms/Heading";
+import Title from "../atoms/Title";
 import MenuSection from "../atoms/MenuSection";
 import Footer from "../organisms/Footer";
-import "./_atCenterMenu.scss";
 
 const AtCenterMenu = () => {
   return (
     <Wrapper className="twoRowGrid wrapper__twoRowGrid--white">
       <main className="atCenterMenuMain">
         <div className="atCenterMenuMain__intro">
-          <Heading tag="h2" text="En el centro" className="primaryMenu" />
+          <Title tag="h2" text="En el centro" className="primaryMenu" />
         </div>
         <ul className="atCenterMenuMain__menu">
           <MenuSection

@@ -1,19 +1,15 @@
 @import "../../styles/settings/variables";
 
 .btn {
+  background-color: transparent;
   color: $colorGreyPrimary;
-  background: transparent;
   border: none;
   font-size: 3rem;
   padding: 0.5rem;
+  display: inline-block;
+  height: 54px;
   :hover {
     cursor: pointer;
-  }
-  &--nav {
-    background-color: transparent;
-    display: inline-block;
-    color: $colorGreyPrimary;
-    height: 52px;
   }
 }
 
