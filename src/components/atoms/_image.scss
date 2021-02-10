@@ -1,9 +1,10 @@
 @import "../../styles/settings/variables";
 
 .img {
-  max-width: 82%;
-  // &--landing {
-  //   // height: 80%;
+  width: 15rem;
+  // @media all and (min-width: 768px) {
+  //   width: 20%;
+  //   // min-width: 230px;
   // }
   &--whereYouLive {
     background-color: $colorWhite;
