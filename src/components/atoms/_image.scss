@@ -1,11 +1,9 @@
 @import "../../styles/settings/variables";
 
 .img {
-  width: 15rem;
-  // @media all and (min-width: 768px) {
-  //   width: 20%;
-  //   // min-width: 230px;
-  // }
+  &--landing {
+    width: 15rem;
+  }
   &--whereYouLive {
     background-color: $colorWhite;
     box-shadow: 0 0 6px 0 $colorGreyPrimary;
@@ -19,8 +17,4 @@
   &--age {
     height: 90%;
   }
-}
-
-.breakLine {
-  display: table;
 }

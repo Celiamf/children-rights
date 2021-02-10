@@ -14,7 +14,8 @@ const Age = () => {
           Si tienes <strong className="breakLine">menos de 18 años,</strong>{" "}
           estás <strong>solo/a en España</strong> y{" "}
           <strong className="breakLine">no tienes pasaporte,</strong> la
-          Fiscalía estudiará tu edad para confirmar que eres menor y protegerte.
+          Fiscalía estudiará tu edad para confirmar que eres menor y{" "}
+          <strong>protegerte</strong>.
         </p>
         <Image
           src={ImgFiscal}
