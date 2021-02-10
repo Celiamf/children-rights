@@ -10,7 +10,7 @@
     padding: 1.5em 1em 0 1em;
   }
   &__main {
-    margin-top: 2em;
+    margin-top: 2rem;
   }
   &__intro {
     color: $colorWhite;
@@ -22,7 +22,7 @@
     border-top-right-radius: 2rem;
     background-color: $colorWhite;
     margin-top: 1rem;
-    padding: 2rem 0;
+    padding: 2em 0;
   }
 }
 
@@ -30,9 +30,9 @@
   position: absolute;
   top: 0;
   right: 0;
-  padding: 1rem;
+  font-size: 2rem;
+  padding: 0.5em;
   border: none;
   background-color: transparent;
   color: $colorGreyPrimary;
-  font-size: 2rem;
 }

@@ -1,13 +1,13 @@
 @import "../../styles/settings/variables";
 
 .btn {
+  display: inline-block;
+  height: 3.75px;
   background-color: transparent;
   color: $colorGreyPrimary;
   border: none;
   font-size: 3rem;
   padding: 0.5rem;
-  display: inline-block;
-  height: 54px;
   &:hover {
     cursor: pointer;
   }
@@ -19,10 +19,10 @@
 .btnLink {
   display: block;
   text-align: center;
-  min-width: 16em;
-  border-radius: 25px;
-  margin: 0 2.5em;
+  min-width: 16rem;
+  margin: 0 2.5rem;
   padding: 1em 1.7em;
+  border-radius: 25px;
   background-color: $colorBrand2;
   color: $colorGreyPrimary;
   text-decoration: none;

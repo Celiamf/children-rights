@@ -2,9 +2,9 @@
 
 .title {
   font-family: $fontTitles;
-  font-size: 3rem;
-  letter-spacing: 3px;
   &--primary {
+    font-size: 3rem;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
   }
   &--secondary {
