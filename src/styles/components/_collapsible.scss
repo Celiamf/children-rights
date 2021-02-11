@@ -6,6 +6,9 @@
   border-radius: 2px;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  @media all and (min-width: 768px) {
+    width: 83%;
+  }
 }
 
 .Collapsible__contentInner {

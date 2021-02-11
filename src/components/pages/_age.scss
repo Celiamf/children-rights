@@ -6,12 +6,19 @@
   align-items: flex-end;
   margin: 2rem 2rem 2rem 2rem;
   color: $colorBlack;
+  @media all and (min-width: 768px) {
+    width: 80%;
+  }
   &__text {
     margin: 0;
     border-left: solid 0.5rem $colorWhite;
     padding-left: 1em;
     font-weight: 600;
     line-height: 1.35em;
+    font-size: 1.25rem;
+    @media all and (min-width: 768px) {
+      font-size: 1.5rem;
+    }
   }
 }
 

@@ -49,8 +49,8 @@ const Age = () => {
         <Collapsible trigger="¿Qué derechos tengo durante el proceso?">
           <ul className="ageSection">
             <li className="listIcon listIcon__rightTreatedAsMinor">
-              Debes ser <strong>tratado como menor</strong> hasta que la
-              Fiscalía diga lo contrario
+              Tienes derecho a ser <strong>tratado como menor</strong> hasta que
+              la Fiscalía diga lo contrario
             </li>
             <li className="listIcon listIcon__rightLiveInCenter">
               Tienes derecho a{" "}
