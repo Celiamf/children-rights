@@ -26,3 +26,47 @@
   align-content: flex-start;
   justify-items: center;
 }
+
+.ageSection {
+  color: $colorGreyPrimary;
+  margin: 0;
+
+  &__numbered li::marker {
+    color: $colorTertiary;
+    font-weight: 800;
+    font-size: 2rem;
+    padding-left: 1em;
+    transform: translateY(1rem);
+  }
+}
+
+.listIcon::before {
+  background-size: contain;
+  display: inline-block;
+  width: 2.5em;
+  height: 2.5em;
+  position: relative;
+  top: 0.5rem;
+  margin: 0.6rem 0.8rem 0.5rem 0;
+}
+
+.listIcon {
+  &__rightTreatedAsMinor::before {
+    content: url(../../images/icon-childSupport.svg);
+    margin-top: 0;
+  }
+  &__rightLiveInCenter::before {
+    content: url(../../images/icon-home.svg);
+  }
+  &__rightAssistance::before {
+    content: url(../../images/icon-hands.svg);
+    top: 0.75rem;
+    margin-top: 0.1rem;
+  }
+  &__rightHealthCare::before {
+    content: url(../../images/icon-doctor.svg);
+    top: 1rem;
+    margin-top: 0.2rem;
+    margin-bottom: 1.5rem;
+  }
+}

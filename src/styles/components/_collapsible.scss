@@ -9,7 +9,7 @@
 }
 
 .Collapsible__contentInner {
-  padding: 10px;
+  padding: 0.5em 1em 1em 1em;
   border-top: 1px solid $colorGreySecondary;
 
   &:last-child {
@@ -22,7 +22,7 @@
   position: relative;
   padding: 1rem;
   background: $colorWhite;
-  color: $colorGreyPrimary;
+  color: $colorBlack;
   font-weight: 600;
   text-decoration: none;
   border-radius: 2px;

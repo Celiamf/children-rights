@@ -25,35 +25,48 @@ const Age = () => {
       </header>
       <main className="ageMain">
         <Collapsible trigger="¿Cómo demuestro que soy menor?">
-          <ul>
-            <li>Averigua cómo conseguir tu pasaporte (mira más abajo)</li>
+          <ol className="ageSection ageSection__numbered">
             <li>
-              Pide a tu familia que busque toda la documentación que puedas
-              tener en tu país
+              Averigua cómo conseguir tu <strong>pasaporte</strong> (mira más
+              abajo)
             </li>
-            <li>Pide a tu familia que te envíe fotos de la documentación</li>
             <li>
-              Pide a tu familia que te envíe los documentos originales por
-              correo o a través de personas de confianza
+              Pide a tu familia que te mande{" "}
+              <strong>fotos de los documentos</strong> que tengas en tu país
             </li>
+            <li>
+              Pide a tu familia que te envíe los{" "}
+              <strong>documentos originales por correo</strong> o a través de
+              personas de confianza
+            </li>
+          </ol>
+        </Collapsible>
+        <Collapsible trigger="¿Cómo consigo mi pasaporte?">
+          <ul className="ageSection">
+            <li>FICHA PAÍS</li>
           </ul>
         </Collapsible>
         <Collapsible trigger="¿Qué derechos tengo durante el proceso?">
-          <ul>
-            <li>
-              Debes ser considerado y tratado como menor hasta que la Fiscalía
-              diga lo contrario
+          <ul className="ageSection">
+            <li className="listIcon listIcon__rightTreatedAsMinor">
+              Debes ser <strong>tratado como menor</strong> hasta que la
+              Fiscalía diga lo contrario
             </li>
-            <li>Tienes derecho a vivir en un centro o piso de menores</li>
-            <li>
-              las personas que trabajan en el centro deben ayudarte y
-              acompañarte en lo que necesites
+            <li className="listIcon listIcon__rightLiveInCenter">
+              Tienes derecho a{" "}
+              <strong>vivir en un centro o piso de menores</strong>
             </li>
-            <li>Tienes derecho a la atención sanitaria</li>
+            <li className="listIcon listIcon__rightAssistance">
+              Las personas que trabajan en el centro deben{" "}
+              <strong>ayudarte y acompañarte</strong> en lo que necesites
+            </li>
+            <li className="listIcon listIcon__rightHealthCare">
+              Tienes derecho a la <strong>atención sanitaria</strong>
+            </li>
           </ul>
         </Collapsible>
         <Collapsible trigger="¿Qué va a pasar en la Fiscalía?">
-          <ul>
+          <ul className="ageSection">
             <li>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
               perspiciatis aliquam reiciendis ut officiis deserunt minima
@@ -69,7 +82,7 @@ const Age = () => {
           </ul>
         </Collapsible>
         <Collapsible trigger="La decisión de la Fiscalía">
-          <ul>
+          <ul className="ageSection">
             <li>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
               perspiciatis aliquam reiciendis ut officiis deserunt minima
