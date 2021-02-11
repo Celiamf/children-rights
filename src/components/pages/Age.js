@@ -4,6 +4,7 @@ import Wrapper from "../atoms/Wrapper";
 import Image from "../atoms/Image";
 import ImgFiscal from "../../images/imgFiscal.svg";
 import Collapsible from "react-collapsible";
+import CountryCard from "../organisms/CountryCard";
 import Footer from "../organisms/Footer";
 
 const Age = () => {
@@ -43,7 +44,7 @@ const Age = () => {
         </Collapsible>
         <Collapsible trigger="¿Cómo consigo mi pasaporte?">
           <ul className="ageSection">
-            <li>FICHA PAÍS</li>
+            <CountryCard></CountryCard>
           </ul>
         </Collapsible>
         <Collapsible trigger="¿Qué derechos tengo durante el proceso?">

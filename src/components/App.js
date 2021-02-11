@@ -20,6 +20,7 @@ class App extends React.Component {
         <Route path="/Age" component={Age} />
         <Route path="/Residence" component={Residence} />
         <Route path="/UnderConstruction" component={UnderConstruction} />
+        <Route exact path="/country/:name" />
       </Switch>
     );
   }
