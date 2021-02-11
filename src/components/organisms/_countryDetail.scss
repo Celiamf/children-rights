@@ -1,0 +1,35 @@
+@import "../../styles/settings/variables";
+
+.detailCardContainer {
+  padding: 1em;
+  background-color: $colorWhite;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: $fontSmaller;
+}
+
+.countryContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  width: fit-content;
+}
+
+.countryFlag {
+  width: 6rem;
+  opacity: 0.3;
+}
+
+.countryTitle {
+  position: relative;
+  top: -1.8em;
+  font-size: 2.5rem;
+  z-index: 1;
+  color: $colorBlack;
+}
+
+.embassyContainer {
+  margin-left: 1rem;
+}
