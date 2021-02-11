@@ -1,0 +1,20 @@
+{
+  "country": "Ghana",
+  "address": "https://goo.gl/maps/FFXMU9uj7zr8UVpPA",
+  "phone": "915 670 440",
+  "email": "consular@ghanaembassy.es",
+  "website": "https://ghanaembassy.es/passport-application/",
+  "passport": {
+    "documents": [
+      "Certificado de nacimiento (original y 1 copia)",
+      "3 fotografías tamaño carnet",
+      "Rellenar el formulario online"
+    ],
+    "precio": "120€",
+    "online-form": "https://online.ghanaembassy.es/pnew.php#step-1",
+    "instructions": [
+      "pide cita previa en la página web",
+      "acude a tu cita con la documentación"
+    ]
+  }
+}
