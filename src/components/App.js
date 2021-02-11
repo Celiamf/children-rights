@@ -6,6 +6,7 @@ import CenterDef from "./pages/CenterDef";
 import Age from "./pages/Age";
 import Residence from "./pages/Residence";
 import UnderConstruction from "./pages/UnderConstruction";
+import CountryDetail from "./organisms/CountryDetail";
 import { Switch, Route } from "react-router-dom";
 import "./App.scss";
 
@@ -20,7 +21,7 @@ class App extends React.Component {
         <Route path="/Age" component={Age} />
         <Route path="/Residence" component={Residence} />
         <Route path="/UnderConstruction" component={UnderConstruction} />
-        <Route exact path="/country/:name" />
+        <Route exact path="/country/:name" component={CountryDetail} />
       </Switch>
     );
   }
