@@ -1,13 +1,15 @@
 @import "../../styles/settings/variables";
 
-.detailCardContainer {
+.modalContainer {
   padding: 1em;
+  margin: 1rem;
   background-color: $colorWhite;
   display: flex;
   flex-wrap: wrap;
-  font-size: $fontSmaller;
+  font-size: $fontSmall;
 }
 
+// -------------- SECTION 1 - COUNTRY INFO
 .countryContainer {
   display: flex;
   flex-direction: column;
@@ -15,6 +17,9 @@
   justify-content: flex-start;
   text-align: center;
   width: fit-content;
+  min-width: 160px;
+  margin: 0 auto;
+  height: 120px;
 }
 
 .countryFlag {
@@ -25,11 +30,75 @@
 .countryTitle {
   position: relative;
   top: -1.8em;
-  font-size: 2.5rem;
   z-index: 1;
   color: $colorBlack;
+  font-size: 2.5rem;
+  font-family: $fontTitles;
 }
 
+// -------------- SECTION 2 - EMBASSY INFO
 .embassyContainer {
-  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+
+  > h2 {
+    margin-bottom: 0.5em;
+  }
+}
+
+.embassyList {
+  display: grid;
+  grid-template-columns: 6rem 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  row-gap: 0.3em;
+
+  > h3 {
+    text-transform: uppercase;
+    color: $colorGreyPrimary;
+    font-size: $fontSmall;
+    letter-spacing: -0.05em;
+  }
+}
+
+// -------------- SECTION 3 - PASSPORT INFO
+.passportSubtitle {
+  color: $colorGreyPrimary;
+  padding: 1em 0 0.5em 0;
+  text-transform: uppercase;
+  font-size: $fontSmall;
+  letter-spacing: -0.05em;
+}
+
+.passportPrice {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.passportRequirements > li::before {
+  content: url(../../images/icon-arrowGo.svg);
+  width: 1.5em;
+  display: inline-block;
+  position: relative;
+  top: 0.1rem;
+  margin: 0.3rem 0.6rem 0.3rem 0.1rem;
+}
+
+.moreInfoContainer {
+  display: flex;
+  align-content: center;
+}
+
+.warningSign {
+  background-image: url(../../images/icon-warning.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  margin: auto 0.6rem auto 0;
+}
+
+.moreInfoList {
+  display: inline-block;
+  line-height: 1.7em;
 }

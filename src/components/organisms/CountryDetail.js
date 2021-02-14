@@ -7,58 +7,78 @@ const CountryDetail = () => {
   return (
     <>
       {/* <BackToListLink /> */}
-      <article className="detailCardContainer">
+      <article className="modalContainer">
         <div className="countryContainer">
-          <img src={GhanaFlag} alt="Ghana" className="countryFlag" />
+          <img src={GhanaFlag} alt="Ghana flag" className="countryFlag" />
           <h2 className="countryTitle">Ghana</h2>
         </div>
-        <div className="embassyContainer">
+        <section className="embassyContainer">
           <h2>Embajada</h2>
-          <ul>
-            <li className="detail__EmbassyInfo detail__EmbassyInfo--address">
+          <div className="embassyList">
+            <h3>Dirección:</h3>
+            <span>
               <a
                 href="https://goo.gl/maps/FFXMU9uj7zr8UVpPA"
                 target="_blank"
                 title="See Embassy's address on Google"
               >
-                Dirección
+                C/ Hernández de Tejada, 10
               </a>
-            </li>
-            <li className="detail__EmbassyInfo detail__EmbassyInfo--phone">
-              915 670 440
-            </li>
-            <li className="detail__EmbassyInfo detail__EmbassyInfo--email">
+            </span>
+            <h3>Teléfono:</h3>
+            <span>915 670 440</span>
+            <h3>E-mail: </h3>
+            <span>
               <a href="mailto:consular@ghanaembassy.es">
                 consular@ghanaembassy.es
               </a>
-            </li>
-            <li className="detail__EmbassyInfo detail__EmbassyInfo--web">
+            </span>
+            <h3>Web:</h3>
+            <span>
               <a
                 href="https://ghanaembassy.es/passport-application/"
                 target="_blank"
-                title="Go to Embassy's website"
+                title="Visita la web de la Embajada"
               >
-                Web
+                Visita su web
               </a>
+            </span>
+          </div>
+        </section>
+        <section className="passportSection">
+          <h2>Pasaporte</h2>
+          <h3 className="passportSubtitle">Documentación</h3>
+          <ul className="passportRequirements">
+            <li>
+              <strong>Partida de nacimiento</strong> (original y 1 copia)
+            </li>
+            <li>
+              4 <strong>fotos</strong> tamaño carnet
+            </li>
+            <li>
+              <strong>
+                <a
+                  href="https://online.ghanaembassy.es/pnew.php#step-1"
+                  target="_blank"
+                  title="Rellena el formulario on-line"
+                >
+                  Formulario
+                </a>
+              </strong>{" "}
+              online cumplimentado
             </li>
           </ul>
-        </div>
-        <div>
-          <h2>Pasaporte</h2>
-          <h3>Documentación</h3>
-          <ul>
-            <li> Certificado de nacimiento (original y 1 copia)</li>
-            <li>3 fotografías tamaño carnet</li>
-            <li>Rellenar el formulario online</li>
-          </ul>
-          <h3>Precio</h3>
-          <p>120€</p>
-          <h3>Más información</h3>
-          <ul>
-            <li>Pide cita previa en la página web</li>
-            <li>Acude a tu cita con la documentación</li>
-          </ul>
-        </div>
+          <h3 className="passportSubtitle">Precio</h3>
+          <span className="passportPrice">120€</span>
+          <h3 className="passportSubtitle">Más información</h3>
+          <div className="moreInfoContainer">
+            <div className="warningSign"></div>
+            <ul className="moreInfoList">
+              <li>Pide cita previa en la página web</li>
+              <li>Acude a tu cita con la documentación</li>
+            </ul>
+          </div>
+        </section>
       </article>
     </>
   );
