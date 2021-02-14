@@ -5,10 +5,14 @@
   flex-direction: column;
   background-color: $colorBrand1;
   text-align: center;
-  margin: 2.5rem 2rem 0 2.5rem;
+  margin: 2.5rem 2.5rem 0 2.5rem;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   color: $colorWhite;
+  @media all and (min-width: 768px) {
+    width: 45%;
+    margin: 2.5rem auto 0 auto;
+  }
   &__menu {
     display: flex;
     flex-direction: column;
