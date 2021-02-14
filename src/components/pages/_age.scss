@@ -16,9 +16,6 @@
     font-weight: 600;
     line-height: 1.35em;
     font-size: 1.25rem;
-    @media all and (min-width: 768px) {
-      font-size: 1.5rem;
-    }
   }
 }
 
@@ -27,32 +24,32 @@
 }
 
 .ageMain {
-  margin: 0 2rem;
   display: flex;
   flex-direction: column;
   align-content: flex-start;
+  margin: 0 2rem;
 }
 
 .ageSection {
-  color: $colorGreyPrimary;
   margin: 0;
+  color: $colorGreyPrimary;
 
   &__numbered li::marker {
-    color: $colorTertiary;
-    font-weight: 800;
-    font-size: 2rem;
     padding-left: 1em;
+    color: $colorTertiary;
+    font-size: 2rem;
+    font-weight: 800;
     transform: translateY(1rem);
   }
 }
 
 .listIcon::before {
-  background-size: contain;
-  display: inline-block;
-  width: 2.5em;
-  height: 2.5em;
   position: relative;
   top: 0.5rem;
+  display: inline-block;
+  background-size: contain;
+  width: 2.5em;
+  height: 2.5em;
   margin: 0.6rem 0.8rem 0.5rem 0;
 }
 

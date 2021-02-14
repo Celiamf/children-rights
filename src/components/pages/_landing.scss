@@ -18,11 +18,11 @@
   &__access {
     flex-grow: 1;
     width: 100vw;
+    margin-top: 1rem;
+    padding: 2em 0;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
     background-color: $colorWhite;
-    margin-top: 1rem;
-    padding: 2em 0;
   }
 }
 
