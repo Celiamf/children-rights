@@ -7,6 +7,23 @@
   padding: 1em;
   font-size: $fontSmall;
   background-color: $colorWhite;
+  @media all and (min-width: 768px) {
+    width: 40%;
+    min-width: 510px;
+    margin: 5% auto;
+  }
+  > section > h2 {
+    font-size: 24px;
+    color: $colorGreyPrimary;
+    text-transform: uppercase;
+  }
+  section > h3,
+  section > div > h3 {
+    font-size: $fontSmall;
+    color: $colorGreyPrimary;
+    text-transform: uppercase;
+    letter-spacing: -0.05em;
+  }
 }
 
 // -------------- SECTION 1 - COUNTRY INFO
@@ -40,10 +57,6 @@
 .embassyContainer {
   margin-right: 1rem;
   margin-bottom: 1rem;
-
-  > h2 {
-    margin-bottom: 0.5em;
-  }
 }
 
 .embassyList {
@@ -51,22 +64,12 @@
   grid-template-columns: 6rem 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   row-gap: 0.3em;
-
-  > h3 {
-    text-transform: uppercase;
-    color: $colorGreyPrimary;
-    font-size: $fontSmall;
-    letter-spacing: -0.05em;
-  }
+  padding-top: 1rem;
 }
 
 // -------------- SECTION 3 - PASSPORT INFO
 .passportSubtitle {
   padding: 1em 0 0.5em 0;
-  color: $colorGreyPrimary;
-  font-size: $fontSmall;
-  letter-spacing: -0.05em;
-  text-transform: uppercase;
 }
 
 .passportPrice {
