@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import closeIcon from "../../images/icon-close.svg";
-import "./_closeModalLink.scss";
+import "./_closeModalBtn.scss";
 
-const CloseModalLink = () => {
+const CloseModalBtn = () => {
   return (
     <Link
       to="/Age"
-      className="closeModalLink"
+      className="closeModalBtn"
       aria-label="Go back to list"
       title="Go back to list"
     >
@@ -15,4 +15,4 @@ const CloseModalLink = () => {
   );
 };
 
-export default CloseModalLink;
+export default CloseModalBtn;
