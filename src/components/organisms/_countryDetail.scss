@@ -8,21 +8,26 @@
   font-size: $fontSmall;
   background-color: $colorWhite;
   @media all and (min-width: 768px) {
-    width: 40%;
+    width: 45%;
     min-width: 510px;
     margin: 5% auto;
   }
-  > section > h2 {
-    font-size: 24px;
+  section > h2 {
+    font-size: $fontLarge;
     color: $colorGreyPrimary;
     text-transform: uppercase;
   }
-  section > h3,
-  section > div > h3 {
+  h3 {
     font-size: $fontSmall;
     color: $colorGreyPrimary;
     text-transform: uppercase;
     letter-spacing: -0.05em;
+  }
+  a {
+    text-decoration: underline $colorTertiary;
+    &:hover {
+      border-bottom: solid 1px $colorTertiary;
+    }
   }
 }
 
