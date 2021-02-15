@@ -1,13 +1,13 @@
-// import BackToListLink from "./BackToListLink";
 // import PropTypes from "prop-types";
 import "./_countryDetail.scss";
 import GhanaFlag from "../../images/country-flags/ghana.svg";
+import CloseModalBtn from "../molecules/CloseModalBtn";
 
 const CountryDetail = () => {
   return (
     <>
-      {/* <BackToListLink /> */}
       <article className="modalContainer">
+        <CloseModalBtn></CloseModalBtn>
         <div className="countryContainer">
           <img src={GhanaFlag} alt="Ghana flag" className="countryFlag" />
           <h2 className="countryTitle">Ghana</h2>
@@ -20,7 +20,8 @@ const CountryDetail = () => {
               <a
                 href="https://goo.gl/maps/FFXMU9uj7zr8UVpPA"
                 target="_blank"
-                title="See Embassy's address on Google"
+                title="Dirección de la embajada en Google"
+                className="modalLink"
               >
                 C/ Hernández de Tejada, 10
               </a>
@@ -29,7 +30,7 @@ const CountryDetail = () => {
             <span>915 670 440</span>
             <h3>E-mail: </h3>
             <span>
-              <a href="mailto:consular@ghanaembassy.es">
+              <a href="mailto:consular@ghanaembassy.es" className="modalLink">
                 consular@ghanaembassy.es
               </a>
             </span>
@@ -39,6 +40,7 @@ const CountryDetail = () => {
                 href="https://ghanaembassy.es/passport-application/"
                 target="_blank"
                 title="Visita la web de la Embajada"
+                className="modalLink"
               >
                 Visita su web
               </a>
@@ -61,6 +63,7 @@ const CountryDetail = () => {
                   href="https://online.ghanaembassy.es/pnew.php#step-1"
                   target="_blank"
                   title="Rellena el formulario on-line"
+                  className="modalLink"
                 >
                   Formulario
                 </a>

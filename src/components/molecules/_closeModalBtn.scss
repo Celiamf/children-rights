@@ -1,0 +1,13 @@
+@import "../../styles/settings/variables";
+
+.closeModalBtn {
+  position: absolute;
+  right: 0;
+  margin-right: 1rem;
+  padding: 0 0 0.5rem 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  &:hover {
+    transform: scale(1.2);
+  }
+}
