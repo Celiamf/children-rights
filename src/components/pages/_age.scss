@@ -4,10 +4,11 @@
   display: flex;
   align-content: space-around;
   align-items: flex-end;
-  margin: 2rem 2rem 2rem 2rem;
+  margin: 2rem 1rem;
   color: $colorBlack;
   @media all and (min-width: 768px) {
     width: 80%;
+    margin: 0 auto 1rem;
   }
   &__text {
     margin: 0;
@@ -15,7 +16,7 @@
     padding-left: 1em;
     font-weight: 600;
     line-height: 1.35em;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -26,8 +27,12 @@
 .ageMain {
   display: flex;
   flex-direction: column;
-  align-content: flex-start;
-  margin: 0 2rem;
+  margin: 0 1rem;
+
+  @media all and (min-width: 768px) {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 
 .ageSection {
@@ -53,6 +58,7 @@
   margin: 0.6rem 0.8rem 0.5rem 0;
 }
 
+// ICONS IN LIST OF RIGHTS DURING THE PROCESS
 .listIcon {
   &__rightTreatedAsMinor::before {
     content: url(../../images/icon-childSupport.svg);
