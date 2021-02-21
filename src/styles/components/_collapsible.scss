@@ -9,6 +9,9 @@
   @media all and (min-width: 768px) {
     width: 80%;
   }
+  ul > li {
+    line-height: 1.35em;
+  }
 }
 
 .Collapsible__contentInner {
