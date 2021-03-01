@@ -1,4 +1,4 @@
-@import "../../styles/settings/variables";
+@use "../../styles/settings/variables";
 
 .landing {
   display: flex;
@@ -13,7 +13,7 @@
     margin-top: 2rem;
   }
   &__intro {
-    color: $colorWhite;
+    color: variables.$colorWhite;
   }
   &__access {
     flex-grow: 1;
@@ -22,7 +22,7 @@
     padding: 2em 0;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
-    background-color: $colorWhite;
+    background-color: variables.$colorWhite;
   }
 }
 
@@ -34,5 +34,5 @@
   padding: 0.5em;
   border: none;
   background-color: transparent;
-  color: $colorGreyPrimary;
+  color: variables.$colorGreyPrimary;
 }

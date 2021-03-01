@@ -1,12 +1,12 @@
-@import "../../styles/settings/variables";
+@use "../../styles/settings/variables";
 
 .atCenterMenuMain {
   display: flex;
   flex-direction: column;
   margin: 2.5rem 2.5rem 0 2.5rem;
   text-align: center;
-  color: $colorWhite;
-  background-color: $colorBrand1;
+  color: variables.$colorWhite;
+  background-color: variables.$colorBrand1;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   @media all and (min-width: 768px) {
@@ -20,9 +20,9 @@
   }
   &__intro {
     padding: 1.5em 0 1em 0;
-    color: $colorGreyPrimary;
+    color: variables.$colorGreyPrimary;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    background-color: $colorSecondary;
+    background-color: variables.$colorSecondary;
   }
 }

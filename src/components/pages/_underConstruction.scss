@@ -1,4 +1,4 @@
-@import "../../styles/settings/variables";
+@use "../../styles/settings/variables";
 
 .underConstructionMain {
   display: flex;
@@ -6,5 +6,5 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: $colorWhite;
+  color: variables.$colorWhite;
 }

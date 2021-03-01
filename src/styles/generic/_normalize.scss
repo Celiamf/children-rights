@@ -1,3 +1,5 @@
+@use "../settings/variables";
+
 /* stylelint-disable */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
@@ -13,7 +15,7 @@ html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
   @media all and (min-width: 768px) {
-    font-size: $fontRegularDesktop;
+    font-size: variables.$fontRegularDesktop;
   }
 }
 
@@ -28,9 +30,9 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: $fontText;
-  color: $colorBlack;
-  background-color: $colorBrand1;
+  font-family: variables.$fontText;
+  color: variables.$colorBlack;
+  background-color: variables.$colorBrand1;
 }
 
 /**

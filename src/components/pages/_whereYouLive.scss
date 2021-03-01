@@ -1,4 +1,4 @@
-@import "../../styles/settings/variables";
+@use "../../styles/settings/variables";
 
 .whereYouLiveHeader {
   display: flex;
@@ -14,5 +14,5 @@
   justify-content: space-evenly;
   margin: 2rem 0 2rem 0;
   text-align: center;
-  color: $colorWhite;
+  color: variables.$colorWhite;
 }

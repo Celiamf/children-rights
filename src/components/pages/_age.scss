@@ -1,18 +1,18 @@
-@import "../../styles/settings/variables";
+@use "../../styles/settings/variables";
 
 .ageHeader {
   display: flex;
   align-content: space-around;
   align-items: flex-end;
   margin: 2rem 1rem;
-  color: $colorBlack;
+  color: variables.$colorBlack;
   @media all and (min-width: 768px) {
     width: 80%;
     margin: 0 auto 1rem;
   }
   &__text {
     margin: 0;
-    border-left: solid 0.5rem $colorWhite;
+    border-left: solid 0.5rem variables.$colorWhite;
     padding-left: 1em;
     font-weight: 600;
     line-height: 1.35em;
@@ -37,11 +37,11 @@
 
 .ageSection {
   margin: 0;
-  color: $colorGreyPrimary;
+  color: variables.$colorGreyPrimary;
 
   &__numbered li::marker {
     padding-left: 1em;
-    color: $colorTertiary;
+    color: variables.$colorTertiary;
     font-size: 2rem;
     font-weight: 800;
     transform: translateY(1rem);

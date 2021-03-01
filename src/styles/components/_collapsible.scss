@@ -1,7 +1,7 @@
-@import "../../styles/settings/variables";
+@use "../../styles/settings/variables";
 
 .Collapsible {
-  background-color: $colorWhite;
+  background-color: variables.$colorWhite;
   margin-bottom: 0.5rem;
   border-radius: 2px;
   border-top-left-radius: 20px;
@@ -16,7 +16,7 @@
 
 .Collapsible__contentInner {
   padding: 0.5em 1em 1em 1em;
-  border-top: 1px solid $colorGreySecondary;
+  border-top: 1px solid variables.$colorGreySecondary;
 
   &:last-child {
     margin-bottom: 0;
@@ -27,8 +27,8 @@
   display: block;
   position: relative;
   padding: 1rem;
-  background: $colorWhite;
-  color: $colorBlack;
+  background: variables.$colorWhite;
+  color: variables.$colorBlack;
   font-weight: 600;
   text-decoration: none;
   border-radius: 2px;
