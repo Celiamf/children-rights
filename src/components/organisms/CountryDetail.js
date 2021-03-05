@@ -1,6 +1,5 @@
 // import PropTypes from "prop-types";
 import "./_countryDetail.scss";
-import GhanaFlag from "../../images/country-flags/ghana.svg";
 import CloseModalBtn from "../molecules/CloseModalBtn";
 
 const CountryDetail = () => {

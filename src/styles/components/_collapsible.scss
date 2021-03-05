@@ -6,8 +6,10 @@
   border-radius: 2px;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  width: 100%;
   @media all and (min-width: 768px) {
-    width: 80%;
+    // width: 80%;
+    margin-bottom: 1rem;
   }
   ul > li {
     line-height: 1.35em;

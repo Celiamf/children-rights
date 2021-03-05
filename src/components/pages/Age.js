@@ -9,7 +9,7 @@ import Footer from "../organisms/Footer";
 
 const Age = () => {
   return (
-    <Wrapper className="threeRowGrid--age">
+    <Wrapper className="threeRowGrid--age wrapper__threeRowGrid">
       <header className="ageHeader">
         <p className="ageHeader__text">
           Si tienes <strong className="breakLine">menos de 18 años,</strong>{" "}
@@ -89,12 +89,6 @@ const Age = () => {
               perspiciatis aliquam reiciendis ut officiis deserunt minima
               quibusdam fuga quam fugiat commodi numquam iure, cumque esse
               obcaecati ea, perferendis tempore! Nulla!
-            </li>
-            <li>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque
-              libero provident, placeat laboriosam fuga dignissimos quos autem!
-              Sed beatae autem magni, facere voluptate iure harum est
-              accusantium adipisci officia quia.
             </li>
           </ul>
         </Collapsible>

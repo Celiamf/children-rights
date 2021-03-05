@@ -8,7 +8,7 @@
   color: variables.$colorBlack;
   @media all and (min-width: 768px) {
     width: 80%;
-    margin: 0 auto 1rem;
+    margin: 0 auto 2rem;
   }
   &__text {
     margin: 0;
@@ -59,6 +59,7 @@
 }
 
 // ICONS IN LIST OF RIGHTS DURING THE PROCESS
+
 .listIcon {
   &__rightTreatedAsMinor::before {
     content: url(../../images/icon-childSupport.svg);
