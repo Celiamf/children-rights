@@ -3,6 +3,9 @@
 .img {
   &--landing {
     width: 15rem;
+    @media all and (min-width: 768px) {
+      width: 12rem;
+    }
   }
   &--whereYouLive {
     background-color: $colorWhite;
