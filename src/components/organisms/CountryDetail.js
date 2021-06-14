@@ -1,10 +1,15 @@
 // import PropTypes from "prop-types";
 import "./_countryDetail.scss";
 import CloseModalBtn from "../molecules/CloseModalBtn";
+import Modal from "react-modal";
 
 const CountryDetail = () => {
   return (
     <>
+      <Modal isOpen={true}>
+        <h2>Este es el modal</h2>
+        <CloseModalBtn></CloseModalBtn>
+      </Modal>
       <article className="modalContainer">
         <CloseModalBtn></CloseModalBtn>
         <div className="countryContainer">

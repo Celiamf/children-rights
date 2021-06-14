@@ -1,52 +1,56 @@
 {
-  "id": "01",
-  "country": "Ghana",
-  "flag": "../images/country-flags/ghana.svg",
-  "address": {
-    "street": "C/ Hernández de Tejada",
-    "number": "10",
-    "link": "https://goo.gl/maps/FFXMU9uj7zr8UVpPA"
-  },
-  "phone": "915 670 440",
-  "email": "consular@ghanaembassy.es",
-  "website": "https://ghanaembassy.es/passport-application/",
-  "passport": {
-    "documents": [
-      "Certificado de nacimiento (original y 1 copia)",
-      "3 fotografías tamaño carnet",
-      "Rellenar el formulario online"
-    ],
-    "price": "120€",
-    "online-form": "https://online.ghanaembassy.es/pnew.php#step-1",
-    "instructions": [
-      "pide cita previa en la página web",
-      "acude a tu cita con la documentación"
-    ]
-  }
-}
-{
-  "id": "02",
-  "country": "Ghana",
-  "flag": "../images/country-flags/ghana.svg",
-  "address": {
-    "street": "C/ Hernández de Tejada",
-    "number": "10",
-    "link": "https://goo.gl/maps/FFXMU9uj7zr8UVpPA"
-  },
-  "phone": "915 670 440",
-  "email": "consular@ghanaembassy.es",
-  "website": "https://ghanaembassy.es/passport-application/",
-  "passport": {
-    "documents": [
-      "Certificado de nacimiento (original y 1 copia)",
-      "3 fotografías tamaño carnet",
-      "Rellenar el formulario online"
-    ],
-    "price": "120€",
-    "online-form": "https://online.ghanaembassy.es/pnew.php#step-1",
-    "instructions": [
-      "pide cita previa en la página web",
-      "acude a tu cita con la documentación"
-    ]
-  }
+  "results": [
+    {
+      "id": "01",
+      "country": "Ghana",
+      "flag": "https://raw.githubusercontent.com/Celiamf/children-rights/main/src/images/country-flags/ghana.svg",
+      "address": {
+        "street": "C/ Hernández de Tejada",
+        "number": "10",
+        "link": "https://goo.gl/maps/FFXMU9uj7zr8UVpPA"
+      },
+      "phone": "915 670 440",
+      "email": "consular@ghanaembassy.es",
+      "website": "https://ghanaembassy.es/passport-application/",
+      "passport": {
+        "documents": [
+          "Certificado de nacimiento (original y 1 copia)",
+          "3 fotografías tamaño carnet",
+          "Rellenar el formulario online"
+        ],
+        "price": "120€",
+        "onlineForm": "https://online.ghanaembassy.es/pnew.php#step-1",
+        "instructions": [
+          "pide cita previa en la página web",
+          "acude a tu cita con la documentación"
+        ]
+      }
+    },
+    {
+      "id": "02",
+      "country": "Senegal",
+      "flag": "https://raw.githubusercontent.com/Celiamf/children-rights/main/src/images/country-flags/ghana.svg",
+      "address": {
+        "street": "C/ Palermo",
+        "number": "18",
+        "link": "https://goo.gl/maps/xWPwdKm7d2SfwKgZ8"
+      },
+      "phone": "915 670 440",
+      "email": "consular@ghanaembassy.es",
+      "website": "https://ghanaembassy.es/passport-application/",
+      "passport": {
+        "documents": [
+          "Certificado de nacimiento (original y 1 copia)",
+          "3 fotografías tamaño carnet",
+          "Rellenar el formulario online"
+        ],
+        "price": "120€",
+        "onlineForm": "https://online.ghanaembassy.es/pnew.php#step-1",
+        "instructions": [
+          "pide cita previa en la página web",
+          "acude a tu cita con la documentación"
+        ]
+      }
+    }
+  ]
 }
