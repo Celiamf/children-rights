@@ -1,4 +1,3 @@
-// import PropTypes from "prop-types";
 import "./_countryDetail.scss";
 import CloseModalBtn from "../molecules/CloseModalBtn";
 import Modal from "react-modal";

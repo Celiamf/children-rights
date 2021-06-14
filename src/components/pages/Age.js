@@ -1,6 +1,5 @@
 import "./_age.scss";
 import "../../styles/components/_collapsible.scss";
-// import PropTypes from "prop-types";
 import Wrapper from "../atoms/Wrapper";
 import Image from "../atoms/Image";
 import ImgFiscal from "../../images/imgFiscal.svg";

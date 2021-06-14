@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import GhanaFlag from "../../images/country-flags/ghana.svg";
 import "./_countryCard.scss";
 
 const CountryCard = (props) => {
