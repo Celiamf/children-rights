@@ -4,7 +4,7 @@ const getDataFromAPI = () => {
   )
     .then((response) => response.json())
     .then((data) => {
-      return data.map((country) => {
+      return data.results.map((country) => {
         return {
           country: country.country,
           id: country.id,

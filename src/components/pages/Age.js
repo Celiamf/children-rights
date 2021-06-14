@@ -1,6 +1,6 @@
 import "./_age.scss";
 import "../../styles/components/_collapsible.scss";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 import Wrapper from "../atoms/Wrapper";
 import Image from "../atoms/Image";
 import ImgFiscal from "../../images/imgFiscal.svg";
@@ -19,7 +19,7 @@ const Age = (props) => {
   //     />
   //   );
   // });
-  console.log(props.countries);
+  console.log(props);
   return (
     <Wrapper className="threeRowGrid--age wrapper__threeRowGrid">
       <header className="ageHeader">
@@ -30,11 +30,7 @@ const Age = (props) => {
           Fiscalía estudiará tu edad para confirmar que eres menor y{" "}
           <strong>protegerte</strong>.
         </p>
-        <Image
-          src={ImgFiscal}
-          alt="Drawing of a woman judge"
-          className="age"
-        ></Image>
+        <Image src={ImgFiscal} alt="Drawing of a judge" className="age"></Image>
       </header>
       <main className="ageMain">
         <Collapsible trigger="¿Cómo demuestro que soy menor?">

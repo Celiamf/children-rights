@@ -20,7 +20,19 @@ function App() {
     });
   }, []);
 
-  console.log({ countries });
+  countries.sort(function (a, b) {
+    const countryA = a.country.toUpperCase();
+    const countryB = b.country.toUpperCase();
+    if (countryA < countryB) {
+      return -1;
+    }
+    if (countryA > countryB) {
+      return 1;
+    }
+    return 0;
+  });
+
+  console.log(countries, "Countries en la App");
 
   return (
     <Switch>
@@ -28,7 +40,7 @@ function App() {
       <Route path="/WhereYouLive" component={WhereYouLive} />
       <Route path="/AtCenterMenu" component={AtCenterMenu} />
       <Route path="/CenterDef" component={CenterDef} />
-      <Route path="/Age" component={Age} countries={countries} />
+      <Route path="/Age" render={Age} countries={countries} />
       <Route path="/Residence" component={Residence} />
       <Route path="/UnderConstruction" component={UnderConstruction} />
       <Route exact path="/country/:name" component={CountryDetail} />

@@ -3,7 +3,6 @@ import GhanaFlag from "../../images/country-flags/ghana.svg";
 import "./_countryCard.scss";
 
 const CountryCard = (props) => {
-  debugger;
   return (
     <>
       <Link to={`/char/${props.name}`}>
