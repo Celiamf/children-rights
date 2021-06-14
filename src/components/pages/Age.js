@@ -9,17 +9,17 @@ import CountryCard from "../organisms/CountryCard";
 import Footer from "../organisms/Footer";
 
 const Age = (props) => {
-  // const countryItems = props.countries.map((country) => {
-  //   return (
-  //     <CountryCard
-  //       // key={country.id}
-  //       id={country.id}
-  //       country={country.name}
-  //       img={country.img}
-  //     />
-  //   );
-  // });
-  console.log(props);
+  const countryItems = props.countries.map((country) => {
+    return (
+      <CountryCard
+        key={country.id}
+        id={country.id}
+        country={country.country}
+        img={country.img}
+      />
+    );
+  });
+  console.log({ props });
   return (
     <Wrapper className="threeRowGrid--age wrapper__threeRowGrid">
       <header className="ageHeader">
@@ -51,7 +51,7 @@ const Age = (props) => {
           </ol>
         </Collapsible>
         <Collapsible trigger="¿Cómo consigo mi pasaporte?">
-          <ul className="ageSection">Lista</ul>
+          <ul className="ageSection">{countryItems}</ul>
         </Collapsible>
         <Collapsible trigger="¿Qué derechos tengo durante el proceso?">
           <ul className="ageSection">

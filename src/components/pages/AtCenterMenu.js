@@ -4,7 +4,8 @@ import Title from "../atoms/Title";
 import MenuSection from "../atoms/MenuSection";
 import Footer from "../organisms/Footer";
 
-const AtCenterMenu = () => {
+const AtCenterMenu = (props) => {
+  console.log({ props });
   return (
     <Wrapper className="twoRowGrid wrapper__twoRowGrid--white">
       <main className="atCenterMenuMain">
@@ -16,7 +17,11 @@ const AtCenterMenu = () => {
             text="¿Qué es un centro o piso de menores?"
             to="/UnderConstruction"
           />
-          <MenuSection text="Tengo un problema con mi edad" to="/Age" />
+          <MenuSection
+            text="Tengo un problema con mi edad"
+            to="/Age"
+            countries={props.countries}
+          />
           <MenuSection
             text="Tengo un problema con mi residencia"
             to="/UnderConstruction"

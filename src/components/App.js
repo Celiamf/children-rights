@@ -35,16 +35,20 @@ function App() {
   console.log(countries, "Countries en la App");
 
   return (
-    <Switch>
-      <Route exact path="/" component={Landing} />
-      <Route path="/WhereYouLive" component={WhereYouLive} />
-      <Route path="/AtCenterMenu" component={AtCenterMenu} />
-      <Route path="/CenterDef" component={CenterDef} />
-      <Route path="/Age" render={Age} countries={countries} />
-      <Route path="/Residence" component={Residence} />
-      <Route path="/UnderConstruction" component={UnderConstruction} />
-      <Route exact path="/country/:name" component={CountryDetail} />
-    </Switch>
+    <>
+      <Switch>
+        <Route exact path="/" component={Landing} />
+        <Route path="/WhereYouLive" component={WhereYouLive} />
+        <Route path="/AtCenterMenu" component={AtCenterMenu} />
+        <Route path="/CenterDef" component={CenterDef} />
+        <Route path="/Age">
+          <Age countries={countries} />
+        </Route>
+        <Route path="/Residence" component={Residence} />
+        <Route path="/UnderConstruction" component={UnderConstruction} />
+        <Route exact path="/country/:name" component={CountryDetail} />
+      </Switch>
+    </>
   );
 }
 
