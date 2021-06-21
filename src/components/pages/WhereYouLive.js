@@ -6,7 +6,8 @@ import IconCenter from "../../images/icon_center.svg";
 import Image from "../atoms/Image";
 import Footer from "../organisms/Footer";
 
-const WhereYouLive = () => {
+const WhereYouLive = (props) => {
+  console.log({ props });
   return (
     <Wrapper className="threeRowGrid">
       <header className="whereYouLiveHeader">

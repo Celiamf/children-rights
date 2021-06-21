@@ -1,6 +1,5 @@
 import "./_age.scss";
 import "../../styles/components/_collapsible.scss";
-import PropTypes from "prop-types";
 import Wrapper from "../atoms/Wrapper";
 import Image from "../atoms/Image";
 import ImgFiscal from "../../images/imgFiscal.svg";
@@ -9,17 +8,12 @@ import CountryCard from "../organisms/CountryCard";
 import Footer from "../organisms/Footer";
 
 const Age = (props) => {
-  // const countryItems = props.countries.map((country) => {
-  //   return (
-  //     <CountryCard
-  //       // key={country.id}
-  //       id={country.id}
-  //       country={country.name}
-  //       img={country.img}
-  //     />
-  //   );
-  // });
-  console.log(props.countries);
+  const countryItems = props.countries.map((country) => {
+    return (
+      <CountryCard id={country.id} name={country.name} img={country.img} />
+    );
+  });
+  console.log({ props });
   return (
     <Wrapper className="threeRowGrid--age wrapper__threeRowGrid">
       <header className="ageHeader">
@@ -30,11 +24,7 @@ const Age = (props) => {
           Fiscalía estudiará tu edad para confirmar que eres menor y{" "}
           <strong>protegerte</strong>.
         </p>
-        <Image
-          src={ImgFiscal}
-          alt="Drawing of a woman judge"
-          className="age"
-        ></Image>
+        <Image src={ImgFiscal} alt="Drawing of a judge" className="age"></Image>
       </header>
       <main className="ageMain">
         <Collapsible trigger="¿Cómo demuestro que soy menor?">
@@ -55,7 +45,7 @@ const Age = (props) => {
           </ol>
         </Collapsible>
         <Collapsible trigger="¿Cómo consigo mi pasaporte?">
-          <ul className="ageSection">Lista</ul>
+          <ul className="ageSection">{countryItems}</ul>
         </Collapsible>
         <Collapsible trigger="¿Qué derechos tengo durante el proceso?">
           <ul className="ageSection">

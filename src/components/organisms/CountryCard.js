@@ -1,19 +1,14 @@
 import { Link } from "react-router-dom";
-import GhanaFlag from "../../images/country-flags/ghana.svg";
 import "./_countryCard.scss";
 
 const CountryCard = (props) => {
-  debugger;
+  console.log({ props }, "Props en Countrycard - Tienen que subir");
   return (
     <>
-      <Link to={`/char/${props.name}`}>
+      <Link to={`/country/${props.id}`}>
         <li className="countryCard">
-          <img
-            src={props.img}
-            alt={props.country}
-            className="countryCard__img"
-          />
-          <h3 className=" countryCard__name">{props.country}</h3>
+          <img src={props.img} alt={props.name} className="countryCard__img" />
+          <h3 className=" countryCard__name">{props.name}</h3>
         </li>
       </Link>
     </>

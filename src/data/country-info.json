@@ -1,7 +1,7 @@
 {
   "results": [
     {
-      "id": "01",
+      "id": 1,
       "country": "Ghana",
       "flag": "https://raw.githubusercontent.com/Celiamf/children-rights/main/src/images/country-flags/ghana.svg",
       "address": {
@@ -27,9 +27,9 @@
       }
     },
     {
-      "id": "02",
+      "id": 2,
       "country": "Senegal",
-      "flag": "https://raw.githubusercontent.com/Celiamf/children-rights/main/src/images/country-flags/ghana.svg",
+      "flag": "https://raw.githubusercontent.com/Celiamf/children-rights/main/src/images/country-flags/senegal.svg",
       "address": {
         "street": "C/ Palermo",
         "number": "18",

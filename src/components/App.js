@@ -20,19 +20,45 @@ function App() {
     });
   }, []);
 
-  console.log({ countries });
+  countries.sort(function (a, b) {
+    const countryA = a.name.toUpperCase();
+    const countryB = b.name.toUpperCase();
+    if (countryA < countryB) {
+      return -1;
+    }
+    if (countryA > countryB) {
+      return 1;
+    }
+    return 0;
+  });
+
+  // COPIADO DE R&M, PERO NO LO ENTIENDO Y NO FUNCIONA
+  const renderCountryDetail = (props) => {
+    debugger;
+    const countryId = parseInt(props.match.params.id);
+    const foundCountry = countries.find((country) => {
+      return country.id === countryId;
+    });
+    return <CountryDetail country={foundCountry} />;
+  };
+
+  console.log(countries, "Countries en la App");
 
   return (
-    <Switch>
-      <Route exact path="/" component={Landing} />
-      <Route path="/WhereYouLive" component={WhereYouLive} />
-      <Route path="/AtCenterMenu" component={AtCenterMenu} />
-      <Route path="/CenterDef" component={CenterDef} />
-      <Route path="/Age" component={Age} countries={countries} />
-      <Route path="/Residence" component={Residence} />
-      <Route path="/UnderConstruction" component={UnderConstruction} />
-      <Route exact path="/country/:name" component={CountryDetail} />
-    </Switch>
+    <>
+      <Switch>
+        <Route exact path="/" component={Landing} />
+        <Route path="/WhereYouLive" component={WhereYouLive} />
+        <Route path="/AtCenterMenu" component={AtCenterMenu} />
+        <Route path="/CenterDef" component={CenterDef} />
+        <Route path="/Age">
+          <Age countries={countries} />
+        </Route>
+        <Route path="/Residence" component={Residence} />
+        <Route path="/UnderConstruction" component={UnderConstruction} />
+        <Route exact path="/country/:id" render={renderCountryDetail} />
+      </Switch>
+    </>
   );
 }
 

@@ -4,9 +4,9 @@ const getDataFromAPI = () => {
   )
     .then((response) => response.json())
     .then((data) => {
-      return data.map((country) => {
+      return data.results.map((country) => {
         return {
-          country: country.country,
+          name: country.country,
           id: country.id,
           img: country.flag,
           street: country.address.street,
