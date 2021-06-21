@@ -2,14 +2,12 @@ import "./_countryDetail.scss";
 import CloseModalBtn from "../molecules/CloseModalBtn";
 import Modal from "react-modal";
 
+Modal.setAppElement("#root");
+
 const CountryDetail = (props) => {
   return (
     <>
-      {/* <Modal isOpen={true}>
-        <h2>Este es el modal</h2>
-        <CloseModalBtn></CloseModalBtn>
-      </Modal> */}
-      <article className="modalContainer">
+      <Modal isOpen="true">
         <CloseModalBtn></CloseModalBtn>
         <div className="countryContainer">
           <img
@@ -89,7 +87,7 @@ const CountryDetail = (props) => {
             </ul>
           </div>
         </section>
-      </article>
+      </Modal>
     </>
   );
 };
