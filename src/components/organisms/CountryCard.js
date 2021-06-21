@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import "./_countryCard.scss";
 
 const CountryCard = (props) => {
-  console.log({ props }, "Props en Countrycard - Tienen que subir");
   return (
     <>
       <Link to={`/country/${props.id}`}>

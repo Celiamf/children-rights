@@ -7,7 +7,6 @@ import Image from "../atoms/Image";
 import Footer from "../organisms/Footer";
 
 const WhereYouLive = (props) => {
-  console.log({ props });
   return (
     <Wrapper className="threeRowGrid">
       <header className="whereYouLiveHeader">

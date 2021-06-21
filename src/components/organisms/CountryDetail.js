@@ -3,8 +3,6 @@ import CloseModalBtn from "../molecules/CloseModalBtn";
 import Modal from "react-modal";
 
 const CountryDetail = (props) => {
-  //NO LLEGAN LAS PROPS AQUÍ. SOLO LLEGA UNA QUE SE LLAMA COUNTRY IS ES UNDEFINED
-  console.log({ props });
   return (
     <>
       {/* <Modal isOpen={true}>
@@ -14,12 +12,12 @@ const CountryDetail = (props) => {
       <article className="modalContainer">
         <CloseModalBtn></CloseModalBtn>
         <div className="countryContainer">
-          {/* <img
+          <img
             src={props.country.img}
-            alt="Ghana flag"
+            alt={`${props.country.name} flag`}
             className="countryFlag"
-          /> */}
-          <h2 className="countryTitle">PRUEBA</h2>
+          />
+          <h2 className="countryTitle">{props.country.name}</h2>
         </div>
         <section className="embassyContainer">
           <h2>Embajada</h2>
@@ -27,26 +25,26 @@ const CountryDetail = (props) => {
             <h3>Dirección:</h3>
             <span>
               <a
-                href="https://goo.gl/maps/FFXMU9uj7zr8UVpPA"
+                href={props.country.addressLink}
                 target="_blank"
                 title="Dirección de la embajada en Google"
                 className="modalLink"
               >
-                C/ Hernández de Tejada, 10
+                {props.country.street}
               </a>
             </span>
             <h3>Teléfono:</h3>
-            <span>915 670 440</span>
+            <span>{props.country.phone}</span>
             <h3>E-mail: </h3>
             <span>
-              <a href="mailto:consular@ghanaembassy.es" className="modalLink">
-                consular@ghanaembassy.es
+              <a href={`mailto:${props.country.email}`} className="modalLink">
+                {props.country.email}
               </a>
             </span>
             <h3>Web:</h3>
             <span>
               <a
-                href="https://ghanaembassy.es/passport-application/"
+                href={props.country.website}
                 target="_blank"
                 title="Visita la web de la Embajada"
                 className="modalLink"
@@ -81,7 +79,7 @@ const CountryDetail = (props) => {
             </li>
           </ul>
           <h3 className="passportSubtitle">Precio</h3>
-          <span className="passportPrice">120€</span>
+          <span className="passportPrice">{props.country.passportPrice}</span>
           <h3 className="passportSubtitle">Más información</h3>
           <div className="moreInfoContainer">
             <div className="warningSign"></div>
