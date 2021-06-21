@@ -32,7 +32,6 @@ function App() {
     return 0;
   });
 
-  // COPIADO DE R&M, PERO NO LO ENTIENDO Y NO FUNCIONA
   const renderCountryDetail = (props) => {
     const countryId = parseInt(props.match.params.id);
     const foundCountry = countries.find((country) => {
@@ -40,8 +39,6 @@ function App() {
     });
     return <CountryDetail country={foundCountry} />;
   };
-
-  console.log(countries, "Countries en la App");
 
   return (
     <>

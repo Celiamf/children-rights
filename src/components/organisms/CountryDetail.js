@@ -3,8 +3,6 @@ import CloseModalBtn from "../molecules/CloseModalBtn";
 import Modal from "react-modal";
 
 const CountryDetail = (props) => {
-  //NO LLEGAN LAS PROPS AQUÍ. SOLO LLEGA UNA QUE SE LLAMA COUNTRY IS ES UNDEFINED
-  console.log({ props });
   return (
     <>
       {/* <Modal isOpen={true}>
@@ -16,7 +14,7 @@ const CountryDetail = (props) => {
         <div className="countryContainer">
           <img
             src={props.country.img}
-            alt="Ghana flag"
+            alt={`${props.country.name} flag`}
             className="countryFlag"
           />
           <h2 className="countryTitle">{props.country.name}</h2>

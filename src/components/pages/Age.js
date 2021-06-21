@@ -13,7 +13,6 @@ const Age = (props) => {
       <CountryCard id={country.id} name={country.name} img={country.img} />
     );
   });
-  console.log({ props });
   return (
     <Wrapper className="threeRowGrid--age wrapper__threeRowGrid">
       <header className="ageHeader">
