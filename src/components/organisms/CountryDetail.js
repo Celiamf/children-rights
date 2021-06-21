@@ -2,22 +2,24 @@ import "./_countryDetail.scss";
 import CloseModalBtn from "../molecules/CloseModalBtn";
 import Modal from "react-modal";
 
-const CountryDetail = () => {
+const CountryDetail = (props) => {
+  //NO LLEGAN LAS PROPS AQUÍ. SOLO LLEGA UNA QUE SE LLAMA COUNTRY IS ES UNDEFINED
+  console.log({ props });
   return (
     <>
-      <Modal isOpen={true}>
+      {/* <Modal isOpen={true}>
         <h2>Este es el modal</h2>
         <CloseModalBtn></CloseModalBtn>
-      </Modal>
+      </Modal> */}
       <article className="modalContainer">
         <CloseModalBtn></CloseModalBtn>
         <div className="countryContainer">
-          <img
-            src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIHN0eWxlPSJmaWxsOiNGRkRBNDQ7IiBkPSJNMCwyNTZjMCwzMS4zMTQsNS42MzMsNjEuMzEsMTUuOTIzLDg5LjA0M0wyNTYsMzU2LjE3NGwyNDAuMDc3LTExLjEzDQoJQzUwNi4zNjgsMzE3LjMxLDUxMiwyODcuMzE0LDUxMiwyNTZzLTUuNjMyLTYxLjMxLTE1LjkyMy04OS4wNDNMMjU2LDE1NS44MjZsLTI0MC4wNzcsMTEuMTNDNS42MzMsMTk0LjY5LDAsMjI0LjY4NiwwLDI1NnoiLz4NCjxwYXRoIHN0eWxlPSJmaWxsOiNEODAwMjc7IiBkPSJNMjU2LDBDMTQ1LjkyOSwwLDUyLjA5NCw2OS40NzIsMTUuOTIzLDE2Ni45NTdoNDgwLjE1NUM0NTkuOTA2LDY5LjQ3MiwzNjYuMDcxLDAsMjU2LDB6Ii8+DQo8cGF0aCBzdHlsZT0iZmlsbDojNDk2RTJEOyIgZD0iTTQ5Ni4wNzcsMzQ1LjA0M0gxNS45MjNDNTIuMDk0LDQ0Mi41MjcsMTQ1LjkyOSw1MTIsMjU2LDUxMlM0NTkuOTA2LDQ0Mi41MjcsNDk2LjA3NywzNDUuMDQzeiIvPg0KPHBvbHlnb24gcG9pbnRzPSIyNTUuOTk4LDE2Ni45NTcgMjc4LjA5OCwyMzQuOTc3IDM0OS42MjYsMjM0Ljk3NyAyOTEuNzYzLDI3Ny4wMiAzMTMuODYzLDM0NS4wNDMgMjU1Ljk5OCwzMDMuMDAzIDE5OC4xMzMsMzQ1LjA0MyANCgkyMjAuMjM3LDI3Ny4wMiAxNjIuMzc0LDIzNC45NzcgMjMzLjg5OCwyMzQuOTc3ICIvPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo="
+          {/* <img
+            src={props.country.img}
             alt="Ghana flag"
             className="countryFlag"
-          />
-          <h2 className="countryTitle">Ghana</h2>
+          /> */}
+          <h2 className="countryTitle">PRUEBA</h2>
         </div>
         <section className="embassyContainer">
           <h2>Embajada</h2>
