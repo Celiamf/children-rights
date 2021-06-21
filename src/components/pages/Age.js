@@ -13,7 +13,7 @@ const Age = (props) => {
       <CountryCard
         key={country.id}
         id={country.id}
-        country={country.country}
+        name={country.name}
         img={country.img}
       />
     );

@@ -7,12 +7,8 @@ const CountryCard = (props) => {
     <>
       <Link to={`/country/${props.name}`}>
         <li className="countryCard">
-          <img
-            src={props.img}
-            alt={props.country}
-            className="countryCard__img"
-          />
-          <h3 className=" countryCard__name">{props.country}</h3>
+          <img src={props.img} alt={props.name} className="countryCard__img" />
+          <h3 className=" countryCard__name">{props.name}</h3>
         </li>
       </Link>
     </>

@@ -6,7 +6,7 @@ const getDataFromAPI = () => {
     .then((data) => {
       return data.results.map((country) => {
         return {
-          country: country.country,
+          name: country.country,
           id: country.id,
           img: country.flag,
           street: country.address.street,

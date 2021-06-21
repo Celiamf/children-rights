@@ -21,8 +21,8 @@ function App() {
   }, []);
 
   countries.sort(function (a, b) {
-    const countryA = a.country.toUpperCase();
-    const countryB = b.country.toUpperCase();
+    const countryA = a.name.toUpperCase();
+    const countryB = b.name.toUpperCase();
     if (countryA < countryB) {
       return -1;
     }
