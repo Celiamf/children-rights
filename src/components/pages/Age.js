@@ -49,7 +49,7 @@ const Age = (props) => {
           </ol>
         </Collapsible>
         <Collapsible trigger="¿Cómo consigo mi pasaporte?">
-          <ul className="ageSection">{countryItems}</ul>
+          <ul className="ageSection ageSection__passport">{countryItems}</ul>
         </Collapsible>
         <Collapsible trigger="¿Qué derechos tengo durante el proceso?">
           <ul className="ageSection">

@@ -40,11 +40,14 @@
   color: variables.$colorGreyPrimary;
 
   &__numbered li::marker {
-    padding-left: 1em;
     color: variables.$colorTertiary;
     font-size: 2rem;
     font-weight: 800;
-    transform: translateY(1rem);
+  }
+
+  &__passport {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
