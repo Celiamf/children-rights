@@ -75,11 +75,12 @@
     content: url(../../images/icon-hands.svg);
     top: 0.75rem;
     margin-top: 0.1rem;
+    margin-bottom: 1rem;
   }
   &__rightHealthCare::before {
     content: url(../../images/icon-doctor.svg);
     top: 1rem;
     margin-top: 0.2rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.8rem;
   }
 }
