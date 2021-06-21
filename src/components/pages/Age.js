@@ -19,7 +19,7 @@ const Age = (props) => {
     );
   });
   return (
-    <Wrapper className="threeRowGrid--age wrapper__threeRowGrid">
+    <Wrapper className="wrapper">
       <header className="ageHeader">
         <p className="ageHeader__text">
           Si tienes <strong className="breakLine">menos de 18 años,</strong>{" "}

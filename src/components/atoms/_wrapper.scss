@@ -4,6 +4,7 @@
   display: grid;
   height: 100%;
   grid-template-columns: 1fr;
+  overflow-y: scroll;
   &__twoRowGrid {
     grid-template-rows: 1fr auto;
     &--white {
@@ -12,8 +13,5 @@
   }
   &__threeRowGrid {
     grid-template-rows: 40% 1fr auto;
-    &--age {
-      overflow-y: scroll;
-    }
   }
 }
