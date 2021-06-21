@@ -7,7 +7,7 @@ Modal.setAppElement("#root");
 const CountryDetail = (props) => {
   return (
     <>
-      <Modal isOpen="true">
+      <Modal isOpen="true" className="modalContainer">
         <CloseModalBtn></CloseModalBtn>
         <div className="countryContainer">
           <img

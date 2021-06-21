@@ -10,4 +10,7 @@
   &:hover {
     transform: scale(1.2);
   }
+  @media all and (min-width: 768px) {
+    margin-right: 3em;
+  }
 }

@@ -1,19 +1,20 @@
 @import "../../styles/settings/variables";
 
 .modalContainer {
+  border-radius: 4px;
+  inset: 1rem;
+  border: 1px solid #ccc;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   display: flex;
   flex-wrap: wrap;
   padding: 1em;
   font-size: $fontSmall;
   background-color: $colorWhite;
   @media all and (min-width: 768px) {
-    width: 50%;
     padding: 3em;
-    min-width: 510px;
+    inset: 3rem;
   }
   section > h2 {
     font-size: $fontLarge;
