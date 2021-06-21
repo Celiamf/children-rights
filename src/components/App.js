@@ -34,6 +34,7 @@ function App() {
 
   // COPIADO DE R&M, PERO NO LO ENTIENDO Y NO FUNCIONA
   const renderCountryDetail = (props) => {
+    debugger;
     const countryId = parseInt(props.match.params.id);
     const foundCountry = countries.find((country) => {
       return country.id === countryId;
@@ -55,7 +56,7 @@ function App() {
         </Route>
         <Route path="/Residence" component={Residence} />
         <Route path="/UnderConstruction" component={UnderConstruction} />
-        <Route exact path="/country/:name" render={renderCountryDetail} />
+        <Route exact path="/country/:id" render={renderCountryDetail} />
       </Switch>
     </>
   );

@@ -10,12 +10,7 @@ import Footer from "../organisms/Footer";
 const Age = (props) => {
   const countryItems = props.countries.map((country) => {
     return (
-      <CountryCard
-        key={country.id}
-        id={country.id}
-        name={country.name}
-        img={country.img}
-      />
+      <CountryCard id={country.id} name={country.name} img={country.img} />
     );
   });
   console.log({ props });

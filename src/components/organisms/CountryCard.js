@@ -5,7 +5,7 @@ const CountryCard = (props) => {
   console.log({ props }, "Props en Countrycard - Tienen que subir");
   return (
     <>
-      <Link to={`/country/${props.name}`}>
+      <Link to={`/country/${props.id}`}>
         <li className="countryCard">
           <img src={props.img} alt={props.name} className="countryCard__img" />
           <h3 className=" countryCard__name">{props.name}</h3>
