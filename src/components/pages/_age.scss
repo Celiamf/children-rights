@@ -94,4 +94,16 @@
     text-transform: uppercase;
     margin-bottom: 0.5rem;
   }
+
+  // &:first-child ul li::before {
+  //   // content: url(../../images/icon-childSupport.svg);
+  // }
+
+  ul > li {
+    padding: 0.5em 0;
+  }
+
+  span {
+    font-weight: 800;
+  }
 }

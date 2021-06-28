@@ -94,8 +94,9 @@ const Age = (props) => {
               <h3>Cuando estés allí</h3>
               <ul>
                 <li>
-                  Todo lo que digas allí se recogerá en un acta y servirá para
-                  que la Fiscalía decida si eres menor de edad o no.
+                  Todo lo que digas allí se recogerá en un <span>acta</span> y
+                  servirá para que la Fiscalía decida si eres menor de edad o
+                  no.
                 </li>
                 <li>
                   Por eso, si no entiendes algo de lo que dice la Fiscal o tu
@@ -114,11 +115,15 @@ const Age = (props) => {
                   </ul>
                 </li>
                 <li>
-                  Pueden preguntarte si aceptas hacerte pruebas médicas. Tienes
-                  derecho a decir que NO. Porque ninguna prueba médica puede
-                  decir con exactitud cuál es tu fecha de nacimiento. Tu
-                  documentación es suficiente para demostrar que eres menor de
-                  edad.
+                  Pueden preguntarte si aceptas hacerte{" "}
+                  <span>pruebas médicas</span>. Tienes derecho a decir que{" "}
+                  <span>NO</span>. Ninguna prueba médica puede decir con
+                  exactitud cuál es tu fecha de nacimiento.{" "}
+                  <span>
+                    Tu documentación es suficiente para demostrar que eres menor
+                    de edad
+                  </span>
+                  .
                 </li>
               </ul>
             </section>
