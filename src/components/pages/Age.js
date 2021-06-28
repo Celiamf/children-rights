@@ -71,81 +71,75 @@ const Age = (props) => {
           </ul>
         </Collapsible>
         <Collapsible trigger="¿Qué va a pasar en la Fiscalía?">
-          <ul className="ageSection">
-            <li>
-              <article>
-                <h2>Antes de ir</h2>
-                <ul>
-                  <li>
-                    Pide que te acompañe una/un abogada/o alguien de confianza
-                    además de tu educador/a. ¡Es tu derecho!
-                  </li>
-                  <li>Pide un/a intérprete que hable tu idioma materno</li>
-                  <li>
-                    Revisa bien tus documentos. Es importante que conozcas bien
-                    cada uno de ellos, cómo los has conseguido y qué información
-                    contienen
-                  </li>
-                </ul>
-              </article>
-            </li>
-            <li>
-              <article>
-                <h2>Cuando estés allí</h2>
-                <ul>
-                  <li>
-                    Todo lo que digas allí se recogerá en un acta y servirá para
-                    que la Fiscalía decida si eres menor de edad o no.
-                  </li>
-                  <li>
-                    Por eso, si no entiendes algo de lo que dice la Fiscal o tu
-                    intérprete, ¡dilo!
-                  </li>
-                  <li>
-                    Te preguntarán sobre:
-                    <ul>
-                      <li>
-                        tu nombre y apellido, fecha de nacimiento y el nombre de
-                        tus padres
-                      </li>
-                      <li>tus documentos</li>
-                      <li>el viaje desde tu país a España</li>
-                      <li>tu estancia en España</li>
-                    </ul>
-                  </li>
-                  <li>
-                    Pueden preguntarte si aceptas hacerte pruebas médicas.
-                    Tienes derecho a decir que NO. Porque ninguna prueba médica
-                    puede decir con exactitud cuál es tu fecha de nacimiento. Tu
-                    documentación es suficiente para demostrar que eres menor de
-                    edad.
-                  </li>
-                </ul>
-              </article>
-            </li>
-            <li>
-              <article>
-                <h2>Importante</h2>
-                <ul>
-                  <li>
-                    Si la Policía puso mal tu fecha de nacimiento o tu nombre
-                    cuando entraste en España, ¡dilo!
-                  </li>
-                  <li>
-                    Si al entrar en España tenías miedo y dijiste que eras
-                    mayor, ¡dilo!
-                  </li>
-                  <li>
-                    Si alguna vez has vivido en un Centro de Menores, ¡dilo!
-                  </li>
-                  <li>
-                    Si tienes documentos en tu país y no has podido traerlos,
-                    ¡explícalo!
-                  </li>
-                </ul>
-              </article>
-            </li>
-          </ul>
+          <article className="ageSection">
+            <section>
+              <h2>Antes de ir</h2>
+              <ul>
+                <li>
+                  Pide que te acompañe una/un abogada/o alguien de confianza
+                  además de tu educador/a. ¡Es tu derecho!
+                </li>
+                <li>Pide un/a intérprete que hable tu idioma materno</li>
+                <li>
+                  Revisa bien tus documentos. Es importante que conozcas bien
+                  cada uno de ellos, cómo los has conseguido y qué información
+                  contienen
+                </li>
+              </ul>
+            </section>
+            <section>
+              <h2>Cuando estés allí</h2>
+              <ul>
+                <li>
+                  Todo lo que digas allí se recogerá en un acta y servirá para
+                  que la Fiscalía decida si eres menor de edad o no.
+                </li>
+                <li>
+                  Por eso, si no entiendes algo de lo que dice la Fiscal o tu
+                  intérprete, ¡dilo!
+                </li>
+                <li>
+                  Te preguntarán sobre:
+                  <ul>
+                    <li>
+                      tu nombre y apellido, fecha de nacimiento y el nombre de
+                      tus padres
+                    </li>
+                    <li>tus documentos</li>
+                    <li>el viaje desde tu país a España</li>
+                    <li>tu estancia en España</li>
+                  </ul>
+                </li>
+                <li>
+                  Pueden preguntarte si aceptas hacerte pruebas médicas. Tienes
+                  derecho a decir que NO. Porque ninguna prueba médica puede
+                  decir con exactitud cuál es tu fecha de nacimiento. Tu
+                  documentación es suficiente para demostrar que eres menor de
+                  edad.
+                </li>
+              </ul>
+            </section>
+            <section>
+              <h2>Importante</h2>
+              <ul>
+                <li>
+                  Si la Policía puso mal tu fecha de nacimiento o tu nombre
+                  cuando entraste en España, ¡dilo!
+                </li>
+                <li>
+                  Si al entrar en España tenías miedo y dijiste que eras mayor,
+                  ¡dilo!
+                </li>
+                <li>
+                  Si alguna vez has vivido en un Centro de Menores, ¡dilo!
+                </li>
+                <li>
+                  Si tienes documentos en tu país y no has podido traerlos,
+                  ¡explícalo!
+                </li>
+              </ul>
+            </section>
+          </article>
         </Collapsible>
         <Collapsible trigger="La decisión de la Fiscalía">
           <ul className="ageSection">

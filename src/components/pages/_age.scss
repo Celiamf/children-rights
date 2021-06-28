@@ -37,7 +37,6 @@
 
 .ageSection {
   margin: 0;
-  color: variables.$colorGreyPrimary;
 
   &__numbered li::marker {
     color: variables.$colorTertiary;
@@ -56,9 +55,9 @@
   top: 0.5rem;
   display: inline-block;
   background-size: contain;
-  width: 2.5em;
-  height: 2.5em;
-  margin: 0.6rem 0.8rem 0.5rem 0;
+  width: 2em;
+  height: 2em;
+  margin: 0rem 0.8rem 0.5rem 0;
 }
 
 // ICONS IN LIST OF RIGHTS DURING THE PROCESS
@@ -66,21 +65,18 @@
 .listIcon {
   &__rightTreatedAsMinor::before {
     content: url(../../images/icon-childSupport.svg);
-    margin-top: 0;
   }
   &__rightLiveInCenter::before {
     content: url(../../images/icon-home.svg);
+    margin-top: 0.6rem;
   }
   &__rightAssistance::before {
     content: url(../../images/icon-hands.svg);
     top: 0.75rem;
-    margin-top: 0.1rem;
-    margin-bottom: 1rem;
   }
   &__rightHealthCare::before {
     content: url(../../images/icon-doctor.svg);
     top: 1rem;
-    margin-top: 0.2rem;
-    margin-bottom: 1.8rem;
+    margin-bottom: 1.4rem;
   }
 }

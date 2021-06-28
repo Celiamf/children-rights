@@ -8,7 +8,6 @@
   border-bottom-right-radius: 20px;
   width: 100%;
   @media all and (min-width: 768px) {
-    // width: 80%;
     margin-bottom: 1rem;
   }
   ul > li {
@@ -19,6 +18,7 @@
 .Collapsible__contentInner {
   padding: 0.5em 1em 1em 1em;
   border-top: 1px solid variables.$colorGreySecondary;
+  color: variables.$colorGreyPrimary;
 
   &:last-child {
     margin-bottom: 0;
