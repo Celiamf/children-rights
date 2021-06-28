@@ -71,24 +71,27 @@ const Age = (props) => {
           </ul>
         </Collapsible>
         <Collapsible trigger="¿Qué va a pasar en la Fiscalía?">
-          <article className="ageSection">
-            <section>
-              <h2>Antes de ir</h2>
+          <section className="ageSection ageSection__attorney">
+            <section className="section">
+              <h3>Antes de ir</h3>
               <ul>
                 <li>
-                  Pide que te acompañe una/un abogada/o alguien de confianza
-                  además de tu educador/a. ¡Es tu derecho!
+                  Pide que te acompañe una/un <strong>abogada/o</strong> alguien
+                  de confianza además de tu educador/a. ¡Es tu derecho!
                 </li>
-                <li>Pide un/a intérprete que hable tu idioma materno</li>
                 <li>
-                  Revisa bien tus documentos. Es importante que conozcas bien
-                  cada uno de ellos, cómo los has conseguido y qué información
-                  contienen
+                  Pide un/a <strong>intérprete</strong> que hable tu idioma
+                  materno
+                </li>
+                <li>
+                  Revisa bien tus <strong>documentos</strong>. Es importante que
+                  conozcas bien cada uno de ellos, cómo los has conseguido y qué
+                  información contienen
                 </li>
               </ul>
             </section>
-            <section>
-              <h2>Cuando estés allí</h2>
+            <section className="section">
+              <h3>Cuando estés allí</h3>
               <ul>
                 <li>
                   Todo lo que digas allí se recogerá en un acta y servirá para
@@ -96,7 +99,7 @@ const Age = (props) => {
                 </li>
                 <li>
                   Por eso, si no entiendes algo de lo que dice la Fiscal o tu
-                  intérprete, ¡dilo!
+                  intérprete, <span>¡dilo!</span>
                 </li>
                 <li>
                   Te preguntarán sobre:
@@ -119,27 +122,28 @@ const Age = (props) => {
                 </li>
               </ul>
             </section>
-            <section>
-              <h2>Importante</h2>
+            <section className="section">
+              <h3>Importante</h3>
               <ul>
                 <li>
                   Si la Policía puso mal tu fecha de nacimiento o tu nombre
-                  cuando entraste en España, ¡dilo!
+                  cuando entraste en España, <span>¡dilo!</span>
                 </li>
                 <li>
                   Si al entrar en España tenías miedo y dijiste que eras mayor,
-                  ¡dilo!
+                  <span>¡dilo!</span>
                 </li>
                 <li>
-                  Si alguna vez has vivido en un Centro de Menores, ¡dilo!
+                  Si alguna vez has vivido en un Centro de Menores,{" "}
+                  <span>¡dilo!</span>
                 </li>
                 <li>
                   Si tienes documentos en tu país y no has podido traerlos,
-                  ¡explícalo!
+                  <span>¡explícalo!</span>
                 </li>
               </ul>
             </section>
-          </article>
+          </section>
         </Collapsible>
         <Collapsible trigger="La decisión de la Fiscalía">
           <ul className="ageSection">

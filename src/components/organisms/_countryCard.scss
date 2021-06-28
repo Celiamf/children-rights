@@ -1,4 +1,4 @@
-@import "../../styles/settings/variables";
+@use "../../styles/settings/variables";
 
 .countryCard {
   display: flex;
@@ -7,7 +7,7 @@
   width: 6rem;
   padding: 0.5em;
   margin: 0.5rem 0.5rem 0.5rem 0;
-  box-shadow: 1px 1px 4px 0 $colorGreyPrimary;
+  box-shadow: 1px 1px 4px 0 variables.$colorGreyPrimary;
   border-radius: 4px;
   text-transform: uppercase;
   transition: background-color 0.5s, color 0.5s;
@@ -19,7 +19,7 @@
     transform: translateY(2px);
   }
   &:hover {
-    background-color: darken($colorBrand1, 25);
-    color: $colorWhite;
+    background-color: darken(variables.$colorBrand1, 25);
+    color: variables.$colorWhite;
   }
 }
