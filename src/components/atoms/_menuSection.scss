@@ -4,11 +4,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 5.5rem;
-  flex-grow: 1;
   font-weight: 600;
   line-height: 1.5rem;
-  border-top: 0.1rem solid variables.$colorWhite;
   border-radius: 20px;
   background-color: variables.$colorBrand1;
   &:hover {
