@@ -26,7 +26,7 @@ const CountryDetail = (props) => {
                 href={props.country.addressLink}
                 target="_blank"
                 title="Dirección de la embajada en Google"
-                className="modalLink"
+                className="link"
               >
                 {props.country.street}
               </a>
@@ -35,7 +35,7 @@ const CountryDetail = (props) => {
             <span>{props.country.phone}</span>
             <h3>E-mail: </h3>
             <span>
-              <a href={`mailto:${props.country.email}`} className="modalLink">
+              <a href={`mailto:${props.country.email}`} className="link">
                 {props.country.email}
               </a>
             </span>
@@ -45,7 +45,7 @@ const CountryDetail = (props) => {
                 href={props.country.website}
                 target="_blank"
                 title="Visita la web de la Embajada"
-                className="modalLink"
+                className="link"
               >
                 Visita su web
               </a>
@@ -69,7 +69,7 @@ const CountryDetail = (props) => {
                 href="https://online.ghanaembassy.es/pnew.php#step-1"
                 target="_blank"
                 title="Rellena el formulario on-line"
-                className="modalLink"
+                className="link"
               >
                 Formulario
               </a>

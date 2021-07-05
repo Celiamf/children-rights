@@ -1,7 +1,17 @@
 @import "../../styles/settings/variables";
 
-.link {
+a {
+  text-decoration: underline $colorTertiary;
+  &:hover {
+    border-bottom: solid 1px $colorTertiary;
+  }
+}
+
+.navLink {
   padding: 1.5rem;
+  &:hover {
+    border-bottom: none;
+  }
 }
 
 .iconLink {
@@ -12,4 +22,14 @@
   &:active {
     color: $colorGreySecondary;
   }
+  &:hover {
+    border-bottom: none;
+  }
 }
+
+// .modalLink {
+//   text-decoration: underline $colorTertiary;
+//   &:hover {
+//     border-bottom: solid 1px $colorTertiary;
+//   }
+// }

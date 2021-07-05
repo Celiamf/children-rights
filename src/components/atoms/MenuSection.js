@@ -5,7 +5,7 @@ import "./_menuSection.scss";
 const MenuSection = (props) => {
   return (
     <li className="menuSection">
-      <Link to={props.to} className="link">
+      <Link to={props.to} className="navLink">
         {props.text}
       </Link>
     </li>

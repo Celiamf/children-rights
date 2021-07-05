@@ -6,6 +6,7 @@ import ImgFiscal from "../../images/imgFiscal.svg";
 import Collapsible from "react-collapsible";
 import CountryCard from "../organisms/CountryCard";
 import Footer from "../organisms/Footer";
+import { Link } from "react-router-dom";
 
 const Age = (props) => {
   const countryItems = props.countries.map((country) => {
@@ -150,14 +151,30 @@ const Age = (props) => {
           </section>
         </Collapsible>
         <Collapsible trigger="La decisión de la Fiscalía">
-          <ul className="ageSection">
-            <li>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-              perspiciatis aliquam reiciendis ut officiis deserunt minima
-              quibusdam fuga quam fugiat commodi numquam iure, cumque esse
-              obcaecati ea, perferendis tempore! Nulla!
-            </li>
-          </ul>
+          <header>
+            <p>
+              <strong>¡Paciencia!</strong> La Fiscalía puede tardar varias
+              semanas o meses en responder.
+            </p>
+            <p>
+              La decisión se llama <strong>decreto</strong>, y en él la Fiscalía
+              puede decir que eres:
+            </p>
+          </header>
+          <section className="ageSection ageSection__attorney">
+            <section className="section">
+              <h3>Menor</h3>
+              <p>¡Enhorabuena!</p>
+              <p>
+                Ahora ya eres menor y el Estado español tiene el deber de
+                protegerte y de garantizar tus{" "}
+                <Link to="/UnderConstruction">derechos</Link>
+              </p>
+            </section>
+            <section className="section">
+              <h3>Mayor</h3>
+            </section>
+          </section>
         </Collapsible>
       </main>
       <Footer to="/AtCenterMenu" />
