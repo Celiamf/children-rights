@@ -21,7 +21,7 @@ const Age = (props) => {
   return (
     <Wrapper className="wrapper">
       <header className="ageHeader">
-        <p className="ageHeader__text">
+        <p className="ageHeader__content">
           Si tienes <strong className="breakLine">menos de 18 años,</strong>{" "}
           estás <strong>solo/a en España</strong> y{" "}
           <strong className="breakLine">no tienes pasaporte,</strong> la
@@ -53,19 +53,19 @@ const Age = (props) => {
         </Collapsible>
         <Collapsible trigger="¿Qué derechos tengo durante el proceso?">
           <ul className="ageSection">
-            <li className="listIcon listIcon__rightTreatedAsMinor">
+            <li className="listIcon__rightTreatedAsMinor">
               Tienes derecho a ser <strong>tratado como menor</strong> hasta que
               la Fiscalía diga lo contrario
             </li>
-            <li className="listIcon listIcon__rightLiveInCenter">
+            <li className="listIcon__rightLiveInCenter">
               Tienes derecho a{" "}
               <strong>vivir en un centro o piso de menores</strong>
             </li>
-            <li className="listIcon listIcon__rightAssistance">
+            <li className="listIcon__rightAssistance">
               Las personas que trabajan en el centro deben{" "}
               <strong>ayudarte y acompañarte</strong> en lo que necesites
             </li>
-            <li className="listIcon listIcon__rightHealthCare">
+            <li className="listIcon__rightHealthCare">
               Tienes derecho a la <strong>atención sanitaria</strong>
             </li>
           </ul>
@@ -94,13 +94,12 @@ const Age = (props) => {
               <h3>Cuando estés allí</h3>
               <ul>
                 <li>
-                  Todo lo que digas allí se recogerá en un <span>acta</span> y
-                  servirá para que la Fiscalía decida si eres menor de edad o
-                  no.
+                  Todo lo que digas allí se recogerá en un <b>acta</b> y servirá
+                  para que la Fiscalía decida si eres menor de edad o no.
                 </li>
                 <li>
                   Por eso, si no entiendes algo de lo que dice la Fiscal o tu
-                  intérprete, <span>¡dilo!</span>
+                  intérprete, <b>¡dilo!</b>
                 </li>
                 <li>
                   Te preguntarán sobre:
@@ -116,13 +115,13 @@ const Age = (props) => {
                 </li>
                 <li>
                   Pueden preguntarte si aceptas hacerte{" "}
-                  <span>pruebas médicas</span>. Tienes derecho a decir que{" "}
-                  <span>NO</span>. Ninguna prueba médica puede decir con
-                  exactitud cuál es tu fecha de nacimiento.{" "}
-                  <span>
+                  <strong>pruebas médicas</strong>. Tienes derecho a decir que{" "}
+                  <b>NO</b>. Ninguna prueba médica puede decir con exactitud
+                  cuál es tu fecha de nacimiento.{" "}
+                  <strong>
                     Tu documentación es suficiente para demostrar que eres menor
                     de edad
-                  </span>
+                  </strong>
                   .
                 </li>
               </ul>
@@ -132,19 +131,19 @@ const Age = (props) => {
               <ul>
                 <li>
                   Si la Policía puso mal tu fecha de nacimiento o tu nombre
-                  cuando entraste en España, <span>¡dilo!</span>
+                  cuando entraste en España, <b>¡dilo!</b>
                 </li>
                 <li>
                   Si al entrar en España tenías miedo y dijiste que eras mayor,{" "}
-                  <span>¡dilo!</span>
+                  <b>¡dilo!</b>
                 </li>
                 <li>
                   Si alguna vez has vivido en un Centro de Menores,{" "}
-                  <span>¡dilo!</span>
+                  <b>¡dilo!</b>
                 </li>
                 <li>
                   Si tienes documentos en tu país y no has podido traerlos,{" "}
-                  <span>¡explícalo!</span>
+                  <b>¡explícalo!</b>
                 </li>
               </ul>
             </section>

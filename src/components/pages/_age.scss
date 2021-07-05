@@ -1,5 +1,9 @@
 @use "../../styles/settings/variables";
 
+span {
+  font-weight: 800;
+}
+
 .ageHeader {
   display: flex;
   align-content: space-around;
@@ -10,7 +14,7 @@
     width: 80%;
     margin: 0 auto 2rem;
   }
-  &__text {
+  &__content {
     margin: 0;
     border-left: solid 0.5rem variables.$colorWhite;
     padding-left: 1em;
@@ -36,7 +40,7 @@
   margin: 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 1em;
+  grid-column-gap: 1em;
 
   li::marker {
     color: variables.$colorTertiary;
@@ -50,14 +54,17 @@
   }
 }
 
-.listIcon::before {
+li::before {
   position: relative;
   top: 0.5rem;
   display: inline-block;
   background-size: contain;
   width: 2em;
-  height: 2em;
-  margin: 0rem 0.8rem 0.5rem 0;
+  margin: 0 0.5rem 0.5rem 0;
+}
+
+ul > li {
+  padding: 0 0 0.5em 0;
 }
 
 // ICONS IN LIST OF RIGHTS DURING THE PROCESS
@@ -68,16 +75,12 @@
   }
   &__rightLiveInCenter::before {
     content: url(../../images/icon-home.svg);
-    margin-top: 0.6rem;
   }
   &__rightAssistance::before {
     content: url(../../images/icon-hands.svg);
-    top: 0.75rem;
   }
   &__rightHealthCare::before {
     content: url(../../images/icon-doctor.svg);
-    top: 1rem;
-    margin-bottom: 1.4rem;
   }
 }
 
@@ -92,24 +95,18 @@
   h3 {
     text-transform: uppercase;
     margin-bottom: 0.5rem;
-  }
-
-  li::before {
-    position: relative;
-    top: 0.2rem;
-    display: inline-block;
-    background-size: contain;
-    width: 2em;
-    height: 2em;
-    // margin: 0.5rem 0.5rem 0 0;
+    text-decoration: underline variables.$colorTertiary;
   }
 
   &:first-child ul li::before {
     content: url(../../images/icon-arrowGo.svg);
+    top: 0.2rem;
+    margin-bottom: 0;
   }
 
   &:nth-child(2) ul li::before {
     content: url(../../images/icon-plus.svg);
+    top: 0.6rem;
   }
 
   &:nth-child(3) ul li::before {
@@ -119,13 +116,7 @@
   &:nth-child(2) ul li ul li::before {
     content: url(../../images/icon-question.svg);
     width: 1em;
-  }
-
-  ul > li {
-    padding: 0.5em 0;
-  }
-
-  span {
-    font-weight: 800;
+    top: 0.2rem;
+    margin-bottom: 0;
   }
 }
