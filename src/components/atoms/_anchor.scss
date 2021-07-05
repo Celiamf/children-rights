@@ -1,6 +1,6 @@
 @import "../../styles/settings/variables";
 
-a {
+.textLink {
   text-decoration: underline $colorTertiary;
   &:hover {
     border-bottom: solid 1px $colorTertiary;
@@ -9,9 +9,6 @@ a {
 
 .navLink {
   padding: 1.5rem;
-  &:hover {
-    border-bottom: none;
-  }
 }
 
 .iconLink {
@@ -22,14 +19,4 @@ a {
   &:active {
     color: $colorGreySecondary;
   }
-  &:hover {
-    border-bottom: none;
-  }
 }
-
-// .modalLink {
-//   text-decoration: underline $colorTertiary;
-//   &:hover {
-//     border-bottom: solid 1px $colorTertiary;
-//   }
-// }
