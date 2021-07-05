@@ -1,4 +1,4 @@
-@import "../../styles/settings/variables";
+@use "../../styles/settings/variables";
 
 .menuSection {
   display: flex;
@@ -8,11 +8,13 @@
   flex-grow: 1;
   font-weight: 600;
   line-height: 1.5rem;
-  border-top: 0.1rem solid $colorWhite;
+  border-top: 0.1rem solid variables.$colorWhite;
+  border-radius: 20px;
+  background-color: variables.$colorBrand1;
   &:hover {
-    background-color: darken($colorSecondary, 15%);
+    background-color: darken(variables.$colorSecondary, 15%);
   }
   &:active {
-    background-color: $colorSecondary;
+    background-color: variables.$colorSecondary;
   }
 }

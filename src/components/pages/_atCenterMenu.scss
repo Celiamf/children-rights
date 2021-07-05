@@ -3,26 +3,23 @@
 .atCenterMenuMain {
   display: flex;
   flex-direction: column;
-  margin: 2.5rem 2.5rem 0 2.5rem;
+  margin: 2rem;
   text-align: center;
   color: variables.$colorWhite;
-  background-color: variables.$colorBrand1;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  @media all and (min-width: 768px) {
-    width: 45%;
-    margin: 2.5rem auto 0 auto;
+  &__intro {
+    padding: 1em 0 1em 0;
+    margin-bottom: 0.5rem;
+    color: variables.$colorGreyPrimary;
+    border-radius: 20px;
+    background-color: lighten(variables.$colorBrand2, 10%);
   }
   &__menu {
-    display: flex;
-    flex-direction: column;
     flex-grow: 1;
-  }
-  &__intro {
-    padding: 1.5em 0 1em 0;
-    color: variables.$colorGreyPrimary;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    background-color: variables.$colorSecondary;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 0.2em;
+    @media all and (min-width: 768px) {
+      grid-gap: 0.5em;
+    }
   }
 }
