@@ -163,16 +163,56 @@ const Age = (props) => {
           </header>
           <section className="ageSection ageSection__attorney">
             <section className="section">
-              <h3>Menor</h3>
+              <h3 classname="attorneyDecision_yes">Menor</h3>
               <p>¡Enhorabuena!</p>
               <p>
-                Ahora ya eres menor y el Estado español tiene el deber de
-                protegerte y de garantizar tus{" "}
-                <Link to="/UnderConstruction">derechos</Link>
+                Ahora el Estado español tiene el deber de protegerte y de
+                garantizar tus{" "}
+                <Link to="/UnderConstruction" className="textLink">
+                  derechos
+                </Link>
+                .
+              </p>
+              <p>
+                <span>¡Atención!</span> Si tu edad y la edad del decreto de la
+                Fiscalía son diferentes, tienes 2 meses para discutir la
+                decisión. Habla con{" "}
+                <Link to="/UnderConstruction" className="textLink">
+                  un/a abogado/a
+                </Link>{" "}
+                para que te ayude.
               </p>
             </section>
             <section className="section">
-              <h3>Mayor</h3>
+              <h3 classname="attorneyDecision_no">Mayor</h3>
+              <p>
+                La Fiscalía ha decidido que eres <strong>mayor de edad</strong>.
+              </p>
+              <p>Tendrás que salir del centro de menores.</p>
+              <p>
+                Antes de irte, deben darte la{" "}
+                <strong>
+                  resolución administrativa de baja del Sistema de Protección
+                </strong>
+                , que es el documento que dice que te tienes que ir. Si se
+                niegan a dártela,{" "}
+                <Link to="/UnderConstruction" className="textLink">
+                  pídela por escrito
+                </Link>
+                .
+              </p>
+              <p>
+                Para encontrar un sitio donde quedarte,{" "}
+                <Link to="/UnderConstruction" className="textLink">
+                  busca ayuda aquí.
+                </Link>
+              </p>
+              <p>
+                Si todavía quieres seguir defendiendo tu minoría de edad,{" "}
+                <Link to="/UnderConstruction" className="textLink">
+                  busca ayuda aquí.
+                </Link>
+              </p>
             </section>
           </section>
         </Collapsible>

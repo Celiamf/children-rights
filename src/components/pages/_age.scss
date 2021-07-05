@@ -1,11 +1,11 @@
 @use "../../styles/settings/variables";
 
-span {
-  font-weight: 800;
-}
-
 h3 {
   text-transform: uppercase;
+}
+
+span {
+  font-weight: 800;
 }
 
 .ageHeader {
@@ -58,6 +58,10 @@ h3 {
   }
 }
 
+ul > li {
+  padding: 0 0 0.5em 0;
+}
+
 li::before {
   position: relative;
   top: 0.5rem;
@@ -65,10 +69,6 @@ li::before {
   background-size: contain;
   width: 2em;
   margin: 0 0.5rem 0.5rem 0;
-}
-
-ul > li {
-  padding: 0 0 0.5em 0;
 }
 
 // ICONS IN LIST OF RIGHTS DURING THE PROCESS
@@ -121,12 +121,24 @@ ul > li {
   &:nth-child(2) ul li ul li::before {
     top: 0.2rem;
     content: url(../../images/icon-question.svg);
-    width: 1em;
+    width: 1.2em;
     margin-bottom: 0;
   }
 
   &:nth-child(2) ul li ul li {
     padding-left: 2.5rem;
     font-size: 0.8rem;
+  }
+}
+
+.attorneyDecision_yes {
+  &:before {
+    content: url(../../images/icon-thumb-up.svg);
+  }
+}
+
+.attorneyDecision_no {
+  &:before {
+    content: url(../../images/icon-thumb-down.svg);
   }
 }
