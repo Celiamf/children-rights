@@ -131,14 +131,14 @@ li::before {
   }
 }
 
-.attorneyDecision_yes {
-  &::before {
-    position: relative;
-    top: 0.5rem;
-    display: inline-block;
-    background-size: contain;
-    width: 2em;
-    margin: 0 0.5rem 0.5rem 0;
-    content: url(../../images/icon-thumb-up.svg);
-  }
-}
+// .attorneyDecision_yes {
+//   &::before {
+//     position: relative;
+//     top: 0.5rem;
+//     display: inline-block;
+//     background-size: contain;
+//     width: 2em;
+//     margin: 0 0.5rem 0.5rem 0;
+//     content: url(../../images/icon-thumb-up.svg);
+//   }
+// }
