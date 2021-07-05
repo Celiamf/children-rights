@@ -32,7 +32,7 @@ const Age = (props) => {
       </header>
       <main className="ageMain">
         <Collapsible trigger="¿Cómo demuestro que soy menor?">
-          <ol className="ageSection ageSection__numbered">
+          <ol className="ageSection">
             <li>
               Averigua cómo conseguir tu <strong>pasaporte</strong> (mira más
               abajo)
@@ -135,7 +135,7 @@ const Age = (props) => {
                   cuando entraste en España, <span>¡dilo!</span>
                 </li>
                 <li>
-                  Si al entrar en España tenías miedo y dijiste que eras mayor,
+                  Si al entrar en España tenías miedo y dijiste que eras mayor,{" "}
                   <span>¡dilo!</span>
                 </li>
                 <li>
@@ -143,7 +143,7 @@ const Age = (props) => {
                   <span>¡dilo!</span>
                 </li>
                 <li>
-                  Si tienes documentos en tu país y no has podido traerlos,
+                  Si tienes documentos en tu país y no has podido traerlos,{" "}
                   <span>¡explícalo!</span>
                 </li>
               </ul>
