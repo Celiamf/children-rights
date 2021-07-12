@@ -2,99 +2,208 @@
   {
     "id": 1,
     "country": "Ghana",
-    "flag": "https://raw.githubusercontent.com/Celiamf/children-rights/main/src/images/country-flags/ghana.svg",
-    "address_street": "C/ Hernández de Tejada, 10",
+    "flag": "https://raw.githubusercontent.com/Celiamf/children-rights/main/srCalleimages/country-flags/ghana.svg",
+    "address_street": "Calle Hernández de Tejada, 10",
     "address_link": "https://goo.gl/maps/FFXMU9uj7zr8UVpPA",
     "phone": "915 670 440",
     "email": "consular@ghanaembassy.es",
     "website": "https://ghanaembassy.es/passport-application/",
-    "passport_documents": "Certificado de nacimiento (original y 1 copia),\n 3 fotografías tamaño carnet,\n Rellenar el formulario online",
+    "passport_documents": [
+      "Certificado de nacimiento (original y 1 copia)",
+      " 3 fotografías tamaño carnet",
+      "Certificado de nacimiento (original y 1 copia)",
+      " Rellenar el formulario online",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
     "passport_price": "120 €",
     "passport_onlineForm": "https://online.ghanaembassy.es/pnew.php#step-1",
-    "passport_instructions": "Pide cita previa en la página web, acude a tu cita con la documentación"
+    "passport_onlinePayment": "",
+    "passport_onlineAppointment": "",
+    "passport_instructions": [
+      "Pide cita previa en la página web",
+      "Acude a tu cita con la documentación",
+      "",
+      ""
+    ]
   },
   {
     "id": 2,
     "country": "Gambia",
-    "flag": "https://raw.githubusercontent.com/Celiamf/children-rights/main/src/images/country-flags/gambia.svg",
-    "address_street": "C/ Hernández Iglesias, 20B",
+    "flag": "https://raw.githubusercontent.com/Celiamf/children-rights/main/srCalleimages/country-flags/gambia.svg",
+    "address_street": "Calle Alfonso XII, 46. 6º Izquierda",
     "address_link": "https://www.google.com/maps/place/Embajada+de+Gambia/@40.4418753,-3.644834,15z/data=!4m2!3m1!1s0x0:0x56d1dca5b6a67d0?sa=X&ved=2ahUKEwj7m-6n9u7uAhUfSRUIHTasDMUQ_BIwEnoECCkQBQ",
-    "phone": "91 436 17 92 / 91 436 23 43",
+    "phone": "91 420 35 17 / 91 436 17 92",
     "email": "sjallow@gambiaembassy.es ",
     "website": " https://www.gambiaembassy.es/es/servicios-consulares/tasas-y-otros-requisitos.html\n",
-    "passport_documents": "Certificado de Nacimiento\n2 fotografías recientes tamaño carné\nUna fotocopia de UNO de estos cuatro documentos gambianos de los padres (si no se puede de ambos, con que tenga de uno de los padres es suficiente), como el Certificado de nacimiento, ID Card, pasaporte o el\nVoting Card.\nEntrevista personal o telefónica puede ser requerida\n\n",
-    "passport_price": "50 €",
+    "passport_documents": [
+      "Certificado de Nacimiento",
+      "2 fotografías recientes tamaño carné",
+      "Formulario cumplimentado y firmado",
+      "Fotocopia de documento identificativo de uno o ambos progenitores (certificado de nacimiento, ID Card, pasaporte o el\nVoting Card)",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "passport_price": "40 €",
     "passport_onlineForm": "",
-    "passport_instructions": " Hay que contactar directamente con la Embajada"
+    "passport_onlinePayment": "",
+    "passport_onlineAppointment": "",
+    "passport_instructions": [
+      "Rellena el formulario de solicitud en el consulado",
+      "Paga las tasas en el consulado",
+      "Entrega los documentos",
+      ""
+    ]
   },
   {
     "id": 3,
-    "country": "Camerún",
-    "flag": "https://raw.githubusercontent.com/Celiamf/children-rights/main/src/images/country-flags/cameroon.svg",
-    "address_street": "C/ de Rosario Pino, 3",
+    "country": "Camerun",
+    "flag": "https://raw.githubusercontent.com/Celiamf/children-rights/main/srCalleimages/country-flags/cameroon.svg",
+    "address_street": "Calle de Rosario Pino, 3",
     "address_link": "https://www.google.com/maps/place/Embajada+de+Camer%C3%BAn/@40.4619382,-3.6932256,17z/data=!3m1!4b1!4m5!3m4!1s0xd42291afb0d3ddb:0xb3764b5e777c2b89!8m2!3d40.4619382!4d-3.6910369",
     "phone": "915 71 11 60",
     "email": "ambacammadrid@telefonicat.net",
     "website": "http://ambacammadrid.es/passeports ",
-    "passport_documents": "3 fotocopias del certificado de nacimiento y original\n02 copias completadas del formulario de solicitud de pasaporte.\n\n01 fotocopia certificada del certificado de nacimiento\nNB: la certificación debe hacerse en el Ministerio de Asuntos Exteriores de Camerún\n",
+    "passport_documents": [
+      "Acta de nacimiento original legalizada",
+      "Autorización parental original legalizada",
+      "2 fotos carnet",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
     "passport_price": "154 €",
     "passport_onlineForm": "http://ambacammadrid.es/wp-content/uploads/2019/08/FORMULAIRE-DE-DEMANDE-DE-NOUVEAUX-PASSEPORTS.pdf ",
-    "passport_instructions": "El dinero se debe abonar a:\nNumero de CC; 0075 0080 18 0600463510\nEntidad: Banco Santander\nNombre : Embajada de la República de Gambia\nConcepto: Nombre del menor\nTendrá que enviar toda esta documentación por CORREO POSTAL, MRW, DHL,\netc.,  a: Embajada de Gambia en Madrid\nC/HERNANDEZ IGLESIAS,20B   28027 MADRID,SPAIN\n"
+    "passport_onlinePayment": "",
+    "passport_onlineAppointment": "",
+    "passport_instructions": ["", "", "", ""]
   },
   {
     "id": 4,
-    "country": "Mali",
-    "flag": "https://raw.githubusercontent.com/Celiamf/children-rights/main/src/images/country-flags/mali.svg",
-    "address_street": "C/ Doctor Arce, 18, Planta Baja",
+    "country": "Malí",
+    "flag": "https://raw.githubusercontent.com/Celiamf/children-rights/main/srCalleimages/country-flags/mali.svg",
+    "address_street": "Calle Doctor Arce, 18, Planta Baja",
     "address_link": "https://www.google.com/maps/place/Embajada+de+Mali/@40.4472458,-3.6861214,17z/data=!3m1!4b1!4m5!3m4!1s0xd4228bfcd91d023:0xf7c129a1478f3e53!8m2!3d40.4472458!4d-3.6839327",
     "phone": "91 593 99 47",
     "email": "seccionconsular2@embajadademali.es",
     "website": "https://embajada-de-la-republica-de-mali.reservio.com/",
-    "passport_documents": "Tarjeta NINA\n3 fotos de carnet\nCódigo voucher (que figura en el recibo del pago de las tasas)\nNúmero NINA (tarjeta de identidad consular donde figura el nº NINA o ficha individual RAVEC)\nExtracto de acta de nacimiento\nAutorización parental\n",
+    "passport_documents": [
+      "Tarjeta NINA (tarjeta de identidad consular)\n",
+      "3 fotos de carnet",
+      "Código voucher (que figura en el recibo del pago de las tasas)",
+      "Extracto de acta de nacimiento",
+      "Autorización parental",
+      "",
+      "",
+      "",
+      ""
+    ],
     "passport_price": "84 € + 1 € trámite",
     "passport_onlineForm": "",
-    "passport_instructions": "Realizar el pago por internet de las tasas del pasaporte\nNumero de CC; 0075 0080 18 0600463510"
+    "passport_onlinePayment": "",
+    "passport_onlineAppointment": "",
+    "passport_instructions": [
+      "Paga las tasas del pasaporte por internet\nNumero de CC; 0075 0080 18 0600463510",
+      "",
+      "",
+      ""
+    ]
   },
   {
     "id": 5,
     "country": "Costa de Marfil",
-    "flag": "https://raw.githubusercontent.com/Celiamf/children-rights/main/src/images/country-flags/ivory-coast.svg",
-    "address_street": "C/ Serrano, 154",
+    "flag": "https://raw.githubusercontent.com/Celiamf/children-rights/main/srCalleimages/country-flags/ivory-coast.svg",
+    "address_street": "Calle Serrano, 154",
     "address_link": "https://www.google.com/maps/place/Embajada+de+Costa+de+Marfil/@40.4443418,-3.6853991,15z/data=!4m2!3m1!1s0x0:0xfe4a32789470afe?sa=X&ved=2ahUKEwi0keTSsYDwAhUMlBQKHQ3CBxUQ_BIwEnoECCMQBQ",
     "phone": "91 562 6916",
     "email": "",
     "website": "http://www.espagne.diplomatie.gouv.ci/?num=&type=&lang=",
-    "passport_documents": "Autorización parental original sellada por el Ayto de la localidad, junto a copia del DNI/documento identificativo de la persona que lo firma, legalizado (padre, madre, persona adulta de la familia responsable del chaval en su país)\nExtracto de acta de nacimiento \nCertificado de nacionalidad\nCertificado de identidad o carnet de su escuela\n4 fotos de carnet\nRecibo de haber solicitado la cita por internet (misma web)\nComprobar la altura del chaval en una farmacia y llevar ticket (0,20€)\nLlevar información del recurso residencial y de la UFIL/Escuela donde estudia. \n\n",
-    "passport_price": "",
+    "passport_documents": [
+      "Autorización parental original sellada por el ayuntamiento de la localidad\n",
+      "Copia legalizada del documento identificativo de la persona que firma la autorización parental (padre, madre, o responsable adulto en Costa de Marfil)",
+      "Extracto de acta de nacimiento ",
+      "Certificado de nacionalidad",
+      "Certificado de identidad o carnet de su escuela ",
+      "4 fotos de carnet",
+      "Recibo de haber solicitado la cita por internet (misma web)",
+      "Ticket de la farmacia con tu altura (0,20€)",
+      "Información del centro o piso de menores y de la UFIL/escuela donde estudias"
+    ],
+    "passport_price": "105 €",
     "passport_onlineForm": "www.snedai.ci",
-    "passport_instructions": "Formulario de la solicitud del pasaporte que se puede descargar sobre este sitio web: www.snedai.ci o se puede recoger en la embajada. Entidad: Banco Santander"
+    "passport_onlinePayment": "https://www.paiementpasseport-cotedivoire.com/ ",
+    "passport_onlineAppointment": "https://www.snedai-passeportrdv.ci/pass/",
+    "passport_instructions": [
+      "Paga la tasa del pasaporte online",
+      "Pide cita online",
+      "Acude a la embajada el día de la cita con todos tus documentos",
+      ""
+    ]
   },
   {
     "id": 6,
     "country": "Argelia",
-    "flag": "https://raw.githubusercontent.com/Celiamf/children-rights/main/src/images/country-flags/algeria.svg",
-    "address_street": "C/ del General Oraá, 12",
+    "flag": "https://raw.githubusercontent.com/Celiamf/children-rights/main/srCalleimages/country-flags/algeria.svg",
+    "address_street": "Calle del General Oraá, 12",
     "address_link": "https://www.google.com/maps/place/Embajada+de+Argelia/@40.4362054,-3.6880709,17z/data=!3m1!4b1!4m5!3m4!1s0xd4228eb083aa9d7:0x22adf287f12d62d6!8m2!3d40.4362054!4d-3.6858822",
     "phone": "915 62 97 05",
     "email": "embargel@tsai.es",
     "website": "http://www.emb-argelia.es/index.php/home",
-    "passport_documents": "Formulario debidamente cumplimentado\nLa tarjeta consular, según el caso, padre  madre tutor legal;\nActa de nacimiento\nAutorización paterna (formato PDF);\n Cuatro (04) fotos recientes (tipo carné);\nAbonar la tasa \n",
+    "passport_documents": [
+      "Formulario cumplimentado",
+      "Acta de nacimiento",
+      "Autorización paterna",
+      "4 fotos recientes (tipo carné)",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
     "passport_price": "60 €",
     "passport_onlineForm": "http://www.emb-argelia.es/images/passbiom.pdf",
-    "passport_instructions": "Nombre de la CC: Embajada de la República de Gambia. Tendrá que enviar toda esta documentación por CORREO POSTAL, MRW, DHL, etc.,  a la Dirección de la Embajada de Gambia en Madrid"
+    "passport_onlinePayment": "",
+    "passport_onlineAppointment": "",
+    "passport_instructions": ["", "", "", ""]
   },
   {
     "id": 7,
     "country": "Senegal",
-    "flag": "https://raw.githubusercontent.com/Celiamf/children-rights/main/src/images/country-flags/senegal.svg",
-    "address_street": "C/ Palermo, 13",
+    "flag": "https://raw.githubusercontent.com/Celiamf/children-rights/main/srCalleimages/country-flags/senegal.svg",
+    "address_street": "Calle Palermo, 13",
     "address_link": "https://goo.gl/maps/xWPwdKm7d2SfwKgZ8",
     "phone": " 913 095 200",
     "email": "consulsene.madrid@gmail.com",
     "website": "https://consulsenmadrid.com/",
-    "passport_documents": "Autorización parental original, junto a copia del DNI de la persona que lo firma\nTarjeta nacional de identidad: se tramita en el Consulado\nCertificado judicial/sentencia de inscripción de nacimiento (“jugement d’autorisation d’inscription de naissance”)\nCopia literal del extracto de acta de nacimiento\nExtracto de acta de nacimiento original",
+    "passport_documents": [
+      "Autorización parental original",
+      "Tarjeta nacional de identidad (se tramita en el Consulado)",
+      "Certificado judicial/sentencia de inscripción de nacimiento (“jugement d’autorisation d’inscription de naissance”)",
+      "Copia literal del extracto de acta de nacimiento",
+      "Extracto de acta de nacimiento original",
+      "",
+      "",
+      "",
+      ""
+    ],
     "passport_price": "32 €",
     "passport_onlineForm": "",
-    "passport_instructions": "Pide cita previa en la página web, acude a tu cita con la documentación"
+    "passport_onlinePayment": "",
+    "passport_onlineAppointment": "",
+    "passport_instructions": [
+      "Pide cita previa en la página web, acude a tu cita con la documentación",
+      "",
+      "",
+      ""
+    ]
   }
 ]

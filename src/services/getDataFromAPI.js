@@ -15,7 +15,7 @@ const getDataFromAPI = () => {
           email: country.email,
           website: country.website,
           passport: country.passport_documents,
-          passportPrice: country.passport_price,
+          passportPrice: country.passyport_price,
           passportForm: country.passport_onlineForm,
           passportInstructions: country.passport_instructions,
         };

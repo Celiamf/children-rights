@@ -4,16 +4,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 6rem;
-  padding: 0.5em;
-  margin: 0.5rem 0.5rem 0.5rem 0;
+  text-align: center;
+  width: 6.5rem;
+  padding: 0.8em;
+  margin: 0.5rem 0;
   box-shadow: 1px 1px 4px 0 variables.$colorGreyPrimary;
   border-radius: 4px;
   text-transform: uppercase;
   transition: background-color 0.5s, color 0.5s;
+  &__name {
+    font-size: 1em;
+  }
   &__img {
     width: 2rem;
-    padding-bottom: 0.2em;
+    margin-bottom: 0.5rem;
   }
   &:active {
     transform: translateY(2px);

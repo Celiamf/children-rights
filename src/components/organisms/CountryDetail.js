@@ -28,7 +28,7 @@ const CountryDetail = (props) => {
                 title="Dirección de la embajada en Google"
                 className="textLink"
               >
-                {props.country.street}
+                {props.country.address}
               </a>
             </span>
             <h3>Teléfono:</h3>
