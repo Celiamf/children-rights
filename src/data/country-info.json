@@ -29,7 +29,7 @@
   },
   {
     "id": 3,
-    "country": "Camerun",
+    "country": "Camerún",
     "flag": "https://raw.githubusercontent.com/Celiamf/children-rights/main/src/images/country-flags/cameroon.svg",
     "address_street": "C/ de Rosario Pino, 3",
     "address_link": "https://www.google.com/maps/place/Embajada+de+Camer%C3%BAn/@40.4619382,-3.6932256,17z/data=!3m1!4b1!4m5!3m4!1s0xd42291afb0d3ddb:0xb3764b5e777c2b89!8m2!3d40.4619382!4d-3.6910369",
@@ -43,7 +43,7 @@
   },
   {
     "id": 4,
-    "country": "Malí",
+    "country": "Mali",
     "flag": "https://raw.githubusercontent.com/Celiamf/children-rights/main/src/images/country-flags/mali.svg",
     "address_street": "C/ Doctor Arce, 18, Planta Baja",
     "address_link": "https://www.google.com/maps/place/Embajada+de+Mali/@40.4472458,-3.6861214,17z/data=!3m1!4b1!4m5!3m4!1s0xd4228bfcd91d023:0xf7c129a1478f3e53!8m2!3d40.4472458!4d-3.6839327",
