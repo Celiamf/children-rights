@@ -2,7 +2,7 @@
   {
     "id": 1,
     "country": "Ghana",
-    "flag": "https://raw.githubusercontent.com/Celiamf/children-rights/main/srCalleimages/country-flags/ghana.svg",
+    "flag": "https://raw.githubusercontent.com/Celiamf/children-rights/main/src/images/country-flags/ghana.svg",
     "address_street": "Calle Hernández de Tejada, 10",
     "address_link": "https://goo.gl/maps/FFXMU9uj7zr8UVpPA",
     "phone": "915 670 440",
@@ -33,7 +33,7 @@
   {
     "id": 2,
     "country": "Gambia",
-    "flag": "https://raw.githubusercontent.com/Celiamf/children-rights/main/srCalleimages/country-flags/gambia.svg",
+    "flag": "https://raw.githubusercontent.com/Celiamf/children-rights/main/src/images/country-flags/gambia.svg",
     "address_street": "Calle Alfonso XII, 46. 6º Izquierda",
     "address_link": "https://www.google.com/maps/place/Embajada+de+Gambia/@40.4418753,-3.644834,15z/data=!4m2!3m1!1s0x0:0x56d1dca5b6a67d0?sa=X&ved=2ahUKEwj7m-6n9u7uAhUfSRUIHTasDMUQ_BIwEnoECCkQBQ",
     "phone": "91 420 35 17 / 91 436 17 92",
@@ -64,7 +64,7 @@
   {
     "id": 3,
     "country": "Camerun",
-    "flag": "https://raw.githubusercontent.com/Celiamf/children-rights/main/srCalleimages/country-flags/cameroon.svg",
+    "flag": "https://raw.githubusercontent.com/Celiamf/children-rights/main/src/images/country-flags/cameroon.svg",
     "address_street": "Calle de Rosario Pino, 3",
     "address_link": "https://www.google.com/maps/place/Embajada+de+Camer%C3%BAn/@40.4619382,-3.6932256,17z/data=!3m1!4b1!4m5!3m4!1s0xd42291afb0d3ddb:0xb3764b5e777c2b89!8m2!3d40.4619382!4d-3.6910369",
     "phone": "915 71 11 60",
@@ -90,7 +90,7 @@
   {
     "id": 4,
     "country": "Malí",
-    "flag": "https://raw.githubusercontent.com/Celiamf/children-rights/main/srCalleimages/country-flags/mali.svg",
+    "flag": "https://raw.githubusercontent.com/Celiamf/children-rights/main/src/images/country-flags/mali.svg",
     "address_street": "Calle Doctor Arce, 18, Planta Baja",
     "address_link": "https://www.google.com/maps/place/Embajada+de+Mali/@40.4472458,-3.6861214,17z/data=!3m1!4b1!4m5!3m4!1s0xd4228bfcd91d023:0xf7c129a1478f3e53!8m2!3d40.4472458!4d-3.6839327",
     "phone": "91 593 99 47",
@@ -121,7 +121,7 @@
   {
     "id": 5,
     "country": "Costa de Marfil",
-    "flag": "https://raw.githubusercontent.com/Celiamf/children-rights/main/srCalleimages/country-flags/ivory-coast.svg",
+    "flag": "https://raw.githubusercontent.com/Celiamf/children-rights/main/src/images/country-flags/ivory-coast.svg",
     "address_street": "Calle Serrano, 154",
     "address_link": "https://www.google.com/maps/place/Embajada+de+Costa+de+Marfil/@40.4443418,-3.6853991,15z/data=!4m2!3m1!1s0x0:0xfe4a32789470afe?sa=X&ved=2ahUKEwi0keTSsYDwAhUMlBQKHQ3CBxUQ_BIwEnoECCMQBQ",
     "phone": "91 562 6916",
@@ -152,7 +152,7 @@
   {
     "id": 6,
     "country": "Argelia",
-    "flag": "https://raw.githubusercontent.com/Celiamf/children-rights/main/srCalleimages/country-flags/algeria.svg",
+    "flag": "https://raw.githubusercontent.com/Celiamf/children-rights/main/src/images/country-flags/algeria.svg",
     "address_street": "Calle del General Oraá, 12",
     "address_link": "https://www.google.com/maps/place/Embajada+de+Argelia/@40.4362054,-3.6880709,17z/data=!3m1!4b1!4m5!3m4!1s0xd4228eb083aa9d7:0x22adf287f12d62d6!8m2!3d40.4362054!4d-3.6858822",
     "phone": "915 62 97 05",
@@ -178,7 +178,7 @@
   {
     "id": 7,
     "country": "Senegal",
-    "flag": "https://raw.githubusercontent.com/Celiamf/children-rights/main/srCalleimages/country-flags/senegal.svg",
+    "flag": "https://raw.githubusercontent.com/Celiamf/children-rights/main/src/images/country-flags/senegal.svg",
     "address_street": "Calle Palermo, 13",
     "address_link": "https://goo.gl/maps/xWPwdKm7d2SfwKgZ8",
     "phone": " 913 095 200",
