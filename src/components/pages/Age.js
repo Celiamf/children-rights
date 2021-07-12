@@ -163,15 +163,17 @@ const Age = (props) => {
           </header>
           <section className="ageSection ageSection__attorney">
             <section className="section">
-              <h3 classname="attorneyDecision_yes">Menor</h3>
+              <h3 className="attorneyDecision_yes">Menor</h3>
               <p>¡Enhorabuena!</p>
               <p>
                 Ahora el Estado español tiene el deber de protegerte y de
                 garantizar tus{" "}
-                <Link to="/UnderConstruction" className="textLink">
-                  derechos
-                </Link>
-                .
+                <span>
+                  <Link to="/UnderConstruction" className="textLink">
+                    derechos
+                  </Link>
+                </span>{" "}
+                hasta que cumplas 18 años.
               </p>
               <p>
                 <span>¡Atención!</span> Si tu edad y la edad del decreto de la
@@ -184,7 +186,7 @@ const Age = (props) => {
               </p>
             </section>
             <section className="section">
-              <h3 classname="attorneyDecision_no">Mayor</h3>
+              <h3 className="attorneyDecision_no">Mayor</h3>
               <p>
                 La Fiscalía ha decidido que eres <strong>mayor de edad</strong>.
               </p>
