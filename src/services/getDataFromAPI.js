@@ -14,9 +14,11 @@ const getDataFromAPI = () => {
           phone: country.phone,
           email: country.email,
           website: country.website,
-          passport: country.passport_documents,
+          passportDocuments: country.passport_documents,
           passportPrice: country.passyport_price,
           passportForm: country.passport_onlineForm,
+          passportPayment: country.passport_onlinePayment,
+          passportAppointment: country.passport_onlineAppointment,
           passportInstructions: country.passport_instructions,
         };
       });

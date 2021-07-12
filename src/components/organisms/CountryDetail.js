@@ -5,6 +5,21 @@ import Modal from "react-modal";
 Modal.setAppElement("#root");
 
 const CountryDetail = (props) => {
+  const passportDocuments = props.country.passportDocuments.map((document) => {
+    if (document !== "") {
+      return <li>{document}</li>;
+    }
+  });
+
+  const passportInstructions = props.country.passportInstructions.map(
+    (instruction) => {
+      if (instruction !== "") {
+        return <li>{instruction}</li>;
+      }
+    }
+  );
+
+  console.log({ props });
   return (
     <Modal isOpen="true" className="modalContainer">
       <CloseModalBtn></CloseModalBtn>
@@ -56,36 +71,13 @@ const CountryDetail = (props) => {
       <section className="passportSection">
         <h2 className="sectionTitle">Pasaporte</h2>
         <h3>Documentación</h3>
-        <ul className="passportRequirements">
-          <li>
-            <strong>Partida de nacimiento</strong> (original y 1 copia)
-          </li>
-          <li>
-            4 <strong>fotos</strong> tamaño carnet
-          </li>
-          <li>
-            <strong>
-              <a
-                href="https://online.ghanaembassy.es/pnew.php#step-1"
-                target="_blank"
-                title="Rellena el formulario on-line"
-                className="textLink"
-              >
-                Formulario
-              </a>
-            </strong>{" "}
-            online cumplimentado
-          </li>
-        </ul>
+        <ul className="passportRequirements">{passportDocuments}</ul>
         <h3>Precio</h3>
         <span className="passportPrice">{props.country.passportPrice}</span>
         <h3>Más información</h3>
         <div>
           <div className="warningSign"></div>
-          <ul className="moreInfoList">
-            <li>Pide cita previa en la página web</li>
-            <li>Acude a tu cita con la documentación</li>
-          </ul>
+          <ul className="moreInfoList">{passportInstructions}</ul>
         </div>
       </section>
     </Modal>
