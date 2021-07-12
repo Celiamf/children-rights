@@ -4,20 +4,20 @@ const getDataFromAPI = () => {
   )
     .then((response) => response.json())
     .then((data) => {
-      return data.results.map((country) => {
+      return data.map((country) => {
         return {
           name: country.country,
           id: country.id,
           img: country.flag,
-          street: country.address.street,
-          addressNumber: country.address.number,
-          addressLink: country.address.link,
+          address: country.address_street,
+          addressLink: country.address_link,
           phone: country.phone,
           email: country.email,
           website: country.website,
-          passport: country.passport.documents,
-          passportPrice: country.passport.price,
-          passportInstructions: country.passport.instructions,
+          passport: country.passport_documents,
+          passportPrice: country.passport_price,
+          passportForm: country.passport_onlineForm,
+          passportInstructions: country.passport_instructions,
         };
       });
     });
