@@ -71,9 +71,9 @@ const CountryDetail = (props) => {
       <section>
         <h2 className="sectionTitle">Pasaporte</h2>
         <div className="passportSection">
-          <div>
+          <div className="passportRequirements">
             <h3>Documentación</h3>
-            <ul className="passportRequirements">{passportDocuments}</ul>
+            <ul className="passportRequirements__list">{passportDocuments}</ul>
           </div>
           <div>
             <h3>Precio</h3>

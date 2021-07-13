@@ -91,7 +91,7 @@
 // -------------- SECTION 3 - PASSPORT SECTION
 .passportSection {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   grid-gap: 2em;
   padding-top: 1rem;
   h3 {
@@ -104,13 +104,18 @@
   font-weight: 800;
 }
 
-.passportRequirements > li::before {
-  position: relative;
-  top: 0.1rem;
-  display: inline-block;
-  width: 1.5em;
-  margin: 0.3rem 0.6rem 0.3rem 0.1rem;
-  content: url(../../images/icon-arrowGo.svg);
+.passportRequirements {
+  @media all and (min-width: 768px) {
+    grid-column: auto / span 2;
+  }
+  &__list > li::before {
+    position: relative;
+    top: 0.1rem;
+    display: inline-block;
+    width: 1.5em;
+    margin: 0.3rem 0.6rem 0.3rem 0.1rem;
+    content: url(../../images/icon-arrowGo.svg);
+  }
 }
 
 .moreInfoWrapper {
