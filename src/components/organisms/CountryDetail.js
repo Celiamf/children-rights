@@ -68,16 +68,24 @@ const CountryDetail = (props) => {
           </div>
         </section>
       </div>
-      <section className="passportSection">
+      <section>
         <h2 className="sectionTitle">Pasaporte</h2>
-        <h3>Documentación</h3>
-        <ul className="passportRequirements">{passportDocuments}</ul>
-        <h3>Precio</h3>
-        <span className="passportPrice">{props.country.passportPrice}</span>
-        <h3>Más información</h3>
-        <div>
-          <div className="warningSign"></div>
-          <ul className="moreInfoList">{passportInstructions}</ul>
+        <div className="passportSection">
+          <div>
+            <h3>Documentación</h3>
+            <ul className="passportRequirements">{passportDocuments}</ul>
+          </div>
+          <div>
+            <h3>Precio</h3>
+            <span className="passportPrice">{props.country.passportPrice}</span>
+          </div>
+          <div>
+            <h3>Más información</h3>
+            <div className="moreInfoWrapper">
+              <div className="warningSign"></div>
+              <ul className="moreInfoList">{passportInstructions}</ul>
+            </div>
+          </div>
         </div>
       </section>
     </Modal>

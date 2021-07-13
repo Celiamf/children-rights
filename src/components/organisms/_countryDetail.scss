@@ -42,10 +42,12 @@
 }
 
 // -------------- SECTION 1 - COUNTRY SECTION
+
 .countrySection {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   height: 120px;
   h2 {
     position: relative;
@@ -56,6 +58,7 @@
     text-transform: none;
     @media all and (min-width: 768px) {
       font-size: 3.5rem;
+      top: -1.8em;
     }
   }
 }
@@ -68,7 +71,7 @@
   }
 }
 
-// -------------- SECTION 2 - EMBASSY INFO
+// -------------- SECTION 2 - EMBASSY SECTION
 .embassySection {
   margin-top: 1rem;
   @media all and (min-width: 768px) {
@@ -85,7 +88,17 @@
   padding-top: 1rem;
 }
 
-// -------------- SECTION 3 - PASSPORT INFO
+// -------------- SECTION 3 - PASSPORT SECTION
+.passportSection {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 2em;
+  padding-top: 1rem;
+  h3 {
+    padding: 0 0 0.5rem 0;
+  }
+}
+
 .passportPrice {
   font-size: 1.5rem;
   font-weight: 800;
@@ -100,11 +113,16 @@
   content: url(../../images/icon-arrowGo.svg);
 }
 
+.moreInfoWrapper {
+  display: flex;
+  justify-items: flex-start;
+}
+
 .warningSign {
   display: inline-block;
-  width: 2rem;
-  height: 2rem;
-  margin: auto 0.6rem auto 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 0.4rem 0.6rem 0 0;
   background-repeat: no-repeat;
   background-image: url(../../images/icon-warning.svg);
 }
