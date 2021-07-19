@@ -15,6 +15,12 @@
   &__intro {
     color: variables.$colorWhite;
   }
+  &__img {
+    width: 15rem;
+    @media all and (min-width: 768px) {
+      width: 12rem;
+    }
+  }
   &__access {
     flex-grow: 1;
     width: 100vw;

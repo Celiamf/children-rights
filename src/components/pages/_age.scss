@@ -31,6 +31,10 @@ span {
     font-weight: 600;
     border-left: solid 0.5rem variables.$colorWhite;
   }
+  &__img {
+    height: 90%;
+    max-height: 145px;
+  }
 }
 
 .ageMain {

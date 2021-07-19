@@ -1,7 +1,6 @@
 import "./_age.scss";
 import "../../styles/components/_collapsible.scss";
 import Wrapper from "../atoms/Wrapper";
-import Image from "../atoms/Image";
 import ImgFiscal from "../../images/imgFiscal.svg";
 import Collapsible from "react-collapsible";
 import CountryCard from "../organisms/CountryCard";
@@ -32,11 +31,11 @@ const Age = (props) => {
             la Fiscalía estudiará tu edad para confirmar que eres menor y{" "}
             <strong>protegerte</strong>.
           </p>
-          <Image
+          <img
             src={ImgFiscal}
             alt="Drawing of a judge"
-            className="age"
-          ></Image>
+            className="ageHeader__img"
+          ></img>
         </header>
         <main className="ageMain">
           <Collapsible trigger="¿Cómo demuestro que soy menor?">

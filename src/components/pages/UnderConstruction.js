@@ -1,6 +1,5 @@
 import "./_underConstruction.scss";
 import ImgConstructing from "../../images/constructing.svg";
-import Image from "../atoms/Image";
 import Wrapper from "../atoms/Wrapper";
 import Paragraph from "../atoms/Paragraph";
 import Footer from "../organisms/Footer";
@@ -9,10 +8,10 @@ const UnderConstruction = () => {
   return (
     <Wrapper className="twoRowGrid">
       <main className="underConstructionMain">
-        <Image
+        <img
           src={ImgConstructing}
           alt="Woman coding"
-          className="underConstruction"
+          className="underConstructionMain__img"
         />
         <Paragraph
           className="underConstructionIntro__subtitle"

@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import Wrapper from "../atoms/Wrapper";
 import Title from "../atoms/Title";
 import IconCenter from "../../images/icon_center.svg";
-import Image from "../atoms/Image";
 import Footer from "../organisms/Footer";
 
 const WhereYouLive = () => {
@@ -11,10 +10,10 @@ const WhereYouLive = () => {
     <Wrapper>
       <div className="content">
         <header className="whereYouLiveHeader">
-          <Image
+          <img
             src={IconCenter}
             alt="Home with a person inside"
-            className="whereYouLive"
+            className="whereYouLiveHeader__img"
           />
         </header>
         <main className="whereYouLiveMain">

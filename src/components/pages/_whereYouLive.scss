@@ -12,6 +12,13 @@
   justify-content: center;
   align-items: flex-end;
   padding: 1.5em 1em 0 1em;
+  &__img {
+    background-color: variables.$colorWhite;
+    box-shadow: 0 0 6px 0 variables.$colorGreyPrimary;
+    border-radius: 50%;
+    width: 12rem;
+    height: 12rem;
+  }
 }
 
 .whereYouLiveMain {

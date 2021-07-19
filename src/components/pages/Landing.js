@@ -2,7 +2,6 @@ import "./_landing.scss";
 import "../atoms/_anchor.scss";
 import { Link } from "react-router-dom";
 import ImgLanding from "../../images/img_landing.svg";
-import Image from "../atoms/Image";
 import Wrapper from "../atoms/Wrapper";
 import Title from "../atoms/Title";
 import Paragraph from "../atoms/Paragraph";
@@ -14,10 +13,11 @@ const Landing = () => {
         <button className="languageBtn">
           <i className="fas fa-language "></i>
         </button>
-        <Image
+        <img
           src={ImgLanding}
-          className="landing"
-          alt="Little people helping each other reach higher"
+          className="landing__img"
+          alt="Little people helping each other reach
+          higher"
         />
       </header>
       <main className="landing landing__main">
