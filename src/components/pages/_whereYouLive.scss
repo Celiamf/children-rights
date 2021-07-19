@@ -4,14 +4,13 @@
   overflow-y: scroll;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-end;
 }
 
 .whereYouLiveHeader {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
-  padding: 1.5em 1em 0 1em;
+  margin: 1.5em 1em 0 1em;
   &__img {
     background-color: variables.$colorWhite;
     box-shadow: 0 0 6px 0 variables.$colorGreyPrimary;
@@ -25,7 +24,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
   margin: 2rem 0 2rem 0;
   text-align: center;
   color: variables.$colorWhite;

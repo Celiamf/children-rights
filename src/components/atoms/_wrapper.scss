@@ -1,10 +1,10 @@
-@import "../../styles/settings/variables";
+@use "../../styles/settings/variables";
 
 .wrapper {
   display: grid;
   height: 100vh;
   grid-template-rows: 1fr auto;
   &__white {
-    background-color: $colorWhite;
+    background-color: variables.$colorWhite;
   }
 }

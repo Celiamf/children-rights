@@ -1,10 +1,10 @@
-@import "../../styles/settings/variables";
+@use "../../styles/settings/variables";
 
 .btn {
   display: inline-block;
   height: 3.75px;
   background-color: transparent;
-  color: $colorGreyPrimary;
+  color: variables.$colorGreyPrimary;
   border: none;
   font-size: 3rem;
   padding: 0.5rem;
@@ -12,7 +12,7 @@
     cursor: pointer;
   }
   &:active {
-    color: $colorGreySecondary;
+    color: variables.$colorGreySecondary;
   }
 }
 
@@ -23,18 +23,20 @@
   margin: 1rem 2.5rem;
   padding: 1em 1.7em;
   border-radius: 25px;
-  background-color: $colorBrand2;
-  color: $colorGreyPrimary;
+  background-color: variables.$colorBrand2;
+  color: variables.$colorGreyPrimary;
   text-decoration: none;
   font-weight: 700;
+  box-shadow: 1px 1px 3px 0 variables.$colorGreyPrimary;
   &:hover {
-    background-color: $colorTertiary;
+    background-color: variables.$colorTertiary;
   }
 
   &--secondary {
-    background-color: $colorTertiary;
+    background-color: variables.$colorTertiary;
+
     &:hover {
-      background-color: $colorBrand2;
+      background-color: variables.$colorBrand2;
     }
   }
 }

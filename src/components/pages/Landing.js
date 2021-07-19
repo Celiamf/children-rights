@@ -2,13 +2,12 @@ import "./_landing.scss";
 import "../atoms/_anchor.scss";
 import { Link } from "react-router-dom";
 import ImgLanding from "../../images/img_landing.svg";
-import Wrapper from "../atoms/Wrapper";
 import Title from "../atoms/Title";
 import Paragraph from "../atoms/Paragraph";
 
 const Landing = () => {
   return (
-    <Wrapper>
+    <div className="landingContainer">
       <header className="landing landing__header">
         <button className="languageBtn">
           <i className="fas fa-language "></i>
@@ -25,13 +24,13 @@ const Landing = () => {
           <Title text="¡Hola!" className="primary" />
           <Paragraph text="Bienvenido/a a la app que te informa sobre tus derechos" />
         </section>
-        <section className="landing landing__access">
-          <Link to="/WhereYouLive" className="btnLink">
-            Tengo menos de 18 años y estoy en Madrid
-          </Link>
-        </section>
       </main>
-    </Wrapper>
+      <div className="landing landing__access">
+        <Link to="/WhereYouLive" className="btnLink">
+          Tengo menos de 18 años y estoy en Madrid
+        </Link>
+      </div>
+    </div>
   );
 };
 
