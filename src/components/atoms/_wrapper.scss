@@ -2,16 +2,9 @@
 
 .wrapper {
   display: grid;
-  grid-template-columns: 1fr;
   height: 100vh;
-  overflow-y: scroll;
-  &__twoRowGrid {
-    grid-template-rows: 1fr auto;
-    &--white {
-      background-color: $colorWhite;
-    }
-  }
-  &__threeRowGrid {
-    grid-template-rows: 40% 1fr auto;
+  grid-template-rows: 1fr auto;
+  &__white {
+    background-color: $colorWhite;
   }
 }

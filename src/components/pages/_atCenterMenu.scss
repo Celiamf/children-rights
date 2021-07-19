@@ -6,6 +6,7 @@
   margin: 1.5rem;
   text-align: center;
   color: variables.$colorWhite;
+  overflow-y: scroll;
   &__intro {
     padding: 1em 0.5em;
     margin-bottom: 0.5rem;
