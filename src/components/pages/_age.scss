@@ -8,11 +8,16 @@ span {
   font-weight: 800;
 }
 
+.container {
+  overflow-y: scroll;
+  padding: 1.5em 1em 0 1em;
+}
+
 .ageHeader {
   display: flex;
-  align-content: space-around;
   align-items: flex-end;
-  margin: 2rem 1rem;
+  justify-content: space-between;
+  margin-bottom: 1rem;
   color: variables.$colorBlack;
   @media all and (min-width: 768px) {
     width: 80%;
@@ -28,21 +33,11 @@ span {
   }
 }
 
-.breakLine {
-  display: table;
-}
-
 .ageMain {
-  margin: 0 1rem;
-
   @media all and (min-width: 768px) {
     width: 80%;
     margin: 0 auto;
   }
-}
-
-.content {
-  overflow-y: scroll;
 }
 
 .ageSection {

@@ -2,7 +2,7 @@
 
 .wrapper {
   display: grid;
-  height: 100vh;
+  height: 100%;
   grid-template-rows: 1fr auto;
   &__white {
     background-color: $colorWhite;

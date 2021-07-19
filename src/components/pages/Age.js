@@ -20,14 +20,16 @@ const Age = (props) => {
     );
   });
   return (
-    <Wrapper className="wrapper">
-      <div className="content">
+    <Wrapper>
+      <div className="container">
         <header className="ageHeader">
           <p className="ageHeader__content">
-            Si tienes <strong className="breakLine">menos de 18 años,</strong>{" "}
-            estás <strong>solo/a en España</strong> y{" "}
-            <strong className="breakLine">no tienes pasaporte,</strong> la
-            Fiscalía estudiará tu edad para confirmar que eres menor y{" "}
+            Si tienes <strong>menos de 18 años,</strong> <br></br>
+            estás <strong>solo/a en España</strong> <br></br>y{" "}
+            <strong>
+              no tienes pasaporte,<br></br>
+            </strong>{" "}
+            la Fiscalía estudiará tu edad para confirmar que eres menor y{" "}
             <strong>protegerte</strong>.
           </p>
           <Image
