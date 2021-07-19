@@ -2,8 +2,8 @@
 
 .wrapper {
   display: grid;
-  height: 100%;
   grid-template-columns: 1fr;
+  height: 100vh;
   overflow-y: scroll;
   &__twoRowGrid {
     grid-template-rows: 1fr auto;
