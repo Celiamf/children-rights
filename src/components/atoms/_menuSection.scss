@@ -7,9 +7,11 @@
   font-weight: 600;
   line-height: 1.5rem;
   border-radius: 20px;
-  background-color: variables.$colorBrand1;
+  background-color: variables.$colorWhite;
+  color: variables.$colorGreyPrimary;
   &:hover {
     background-color: darken(variables.$colorSecondary, 15%);
+    color: variables.$colorWhite;
   }
   &:active {
     background-color: variables.$colorSecondary;

@@ -6,7 +6,7 @@ import Footer from "../organisms/Footer";
 
 const AtCenterMenu = () => {
   return (
-    <Wrapper className="white">
+    <Wrapper>
       <main className="atCenterMenuMain">
         <div className="atCenterMenuMain__intro">
           <Title tag="h2" text="En el centro" className="primaryMenu" />

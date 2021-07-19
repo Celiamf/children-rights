@@ -4,7 +4,4 @@
   display: grid;
   height: 100vh;
   grid-template-rows: 1fr auto;
-  &__white {
-    background-color: variables.$colorWhite;
-  }
 }
