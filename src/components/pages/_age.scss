@@ -94,7 +94,7 @@ li::before {
 
 // SECCIÓN DENTRO DEL COLLAPSIBLE DE FISCALÍA
 
-.section {
+.subsection {
   margin: 0.5rem 0;
   padding: 1em;
   box-shadow: 1px 1px 4px 0 variables.$colorGreyPrimary;
@@ -135,27 +135,30 @@ li::before {
   }
 }
 
-.attorneyDecision_yes {
+.attorneyDecisionIntro {
+  background-color: variables.$colorTertiary;
+  padding: 0.5em 1em;
+  margin: 0.5rem 0;
+}
+
+.attorneyDecision {
   &::after {
     position: relative;
     top: 0.2rem;
     display: inline-block;
     background-size: contain;
     width: 1.5em;
-    height: 1.5em;
     margin: 0 0.5rem 0.5rem 0.5rem;
-    content: url(../../images/icon-thumb-up.svg);
   }
-}
-
-.attorneyDecision_no {
-  &::after {
-    position: relative;
-    top: 0.6rem;
-    display: inline-block;
-    background-size: contain;
-    width: 1.5em;
-    margin: 0 0.5rem 0.5rem 0.5rem;
-    content: url(../../images/icon-thumb-down.svg);
+  &__yes {
+    &::after {
+      content: url(../../images/icon-thumb-up.svg);
+    }
+  }
+  &__no {
+    &::after {
+      top: 0.6rem;
+      content: url(../../images/icon-thumb-down.svg);
+    }
   }
 }

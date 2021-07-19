@@ -79,7 +79,7 @@ const Age = (props) => {
           </Collapsible>
           <Collapsible trigger="¿Qué va a pasar en la Fiscalía?">
             <section className="ageSection ageSection__attorney">
-              <section className="section">
+              <section className="subsection">
                 <h3>Antes de ir</h3>
                 <ul>
                   <li>
@@ -98,7 +98,7 @@ const Age = (props) => {
                   </li>
                 </ul>
               </section>
-              <section className="section">
+              <section className="subsection">
                 <h3>Cuando estés allí</h3>
                 <ul>
                   <li>
@@ -135,7 +135,7 @@ const Age = (props) => {
                   </li>
                 </ul>
               </section>
-              <section className="section">
+              <section className="subsection">
                 <h3>Importante</h3>
                 <ul>
                   <li>
@@ -159,7 +159,7 @@ const Age = (props) => {
             </section>
           </Collapsible>
           <Collapsible trigger="La decisión de la Fiscalía">
-            <header>
+            <div className="attorneyDecisionIntro">
               <p>
                 <strong>¡Paciencia!</strong> La Fiscalía puede tardar varias
                 semanas o meses en responder.
@@ -168,10 +168,12 @@ const Age = (props) => {
                 La decisión se llama <strong>decreto</strong>, y en él la
                 Fiscalía puede decir que eres:
               </p>
-            </header>
+            </div>
             <section className="ageSection ageSection__attorney">
-              <section className="section">
-                <h3 className="attorneyDecision_yes">Menor</h3>
+              <section className="subsection">
+                <h3 className="attorneyDecision attorneyDecision__yes">
+                  Menor
+                </h3>
                 <p>¡Enhorabuena!</p>
                 <p>
                   Ahora el Estado español tiene el deber de protegerte y de
@@ -193,8 +195,8 @@ const Age = (props) => {
                   para que te ayude.
                 </p>
               </section>
-              <section className="section">
-                <h3 className="attorneyDecision_no">Mayor</h3>
+              <section className="subsection">
+                <h3 className="attorneyDecision attorneyDecision__no">Mayor</h3>
                 <p>
                   La Fiscalía ha decidido que eres{" "}
                   <strong>mayor de edad</strong>.

@@ -1,9 +1,9 @@
 @import "../../styles/settings/variables";
 
 .textLink {
-  text-decoration: underline $colorTertiary;
+  text-decoration: underline $colorTertiary 2px;
   &:hover {
-    border-bottom: solid 1px $colorTertiary;
+    border-bottom: solid 1px $colorTertiary 2px;
   }
 }
 
