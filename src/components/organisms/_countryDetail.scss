@@ -92,7 +92,7 @@
 .passportSection {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  grid-gap: 2em;
+  gap: 2em;
   padding-top: 1rem;
   h3 {
     padding: 0 0 0.5rem 0;
