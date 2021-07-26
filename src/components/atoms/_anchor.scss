@@ -1,9 +1,11 @@
-@import "../../styles/settings/variables";
+@use "../../styles/settings/variables";
 
 .textLink {
-  text-decoration: underline $colorTertiary 2px;
+  -webkit-text-decoration-line: underline;
+  -webkit-text-decoration-color: variables.$colorTertiary;
+  text-decoration: underline variables.$colorTertiary 2px;
   &:hover {
-    border-bottom: solid 1px $colorTertiary 2px;
+    color: variables.$colorTertiary;
   }
 }
 
@@ -12,11 +14,11 @@
 }
 
 .iconLink {
-  color: $colorGreyPrimary;
+  color: variables.$colorGreyPrimary;
   border: none;
   font-size: 2rem;
   padding: 0.5rem;
   &:active {
-    color: $colorGreySecondary;
+    color: variables.$colorGreySecondary;
   }
 }
