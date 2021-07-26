@@ -1,5 +1,7 @@
 @use "../../styles/settings/variables";
 
+// GLOBAL SETTINGS
+
 h3 {
   text-transform: uppercase;
 }
@@ -12,6 +14,8 @@ span {
   overflow-y: scroll;
   padding: 1.5em 1em 3em 1em;
 }
+
+// HEADER
 
 .ageHeader {
   display: flex;
@@ -37,6 +41,8 @@ span {
   }
 }
 
+// MAIN CONTAINER
+
 .ageMain {
   @media all and (min-width: 768px) {
     width: 80%;
@@ -48,7 +54,6 @@ span {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1em;
-  // margin: 0;
 
   li::marker {
     color: variables.$colorTertiary;
@@ -61,6 +66,8 @@ span {
     flex-wrap: wrap;
   }
 }
+
+// LIST ICONS SETTINGS
 
 ul > li {
   padding: 0 0 0.5em 0;
@@ -75,7 +82,7 @@ li::before {
   margin: 0 0.5rem 0.5rem 0;
 }
 
-// ICONS IN LIST OF RIGHTS DURING THE PROCESS
+// SECTION - RIGHTS DURING THE PROCESS - ICONS
 
 .listIcon {
   &__rightTreatedAsMinor::before {
@@ -92,10 +99,9 @@ li::before {
   }
 }
 
-// SECCIÓN DENTRO DEL COLLAPSIBLE DE FISCALÍA
+// SECTION - WHAT IS GOING TO HAPPEN IN THE ATTORNEY OFFICE
 
 .subsection {
-  margin-top: 0.5rem;
   padding: 1em;
   box-shadow: 1px 1px 4px 0 variables.$colorGreyPrimary;
   border-radius: 4px;
@@ -104,16 +110,15 @@ li::before {
     margin-bottom: 0.5rem;
     text-transform: uppercase;
     text-decoration: underline variables.$colorTertiary;
+    top: 0.4rem;
   }
 
   &:first-child ul li::before {
-    top: 0.2rem;
     content: url(../../images/icon-arrowGo.svg);
     margin-bottom: 0;
   }
 
   &:nth-child(2) ul li::before {
-    top: 0.6rem;
     content: url(../../images/icon-plus.svg);
     width: 1.8em;
   }
@@ -135,18 +140,17 @@ li::before {
   }
 }
 
-// SECTION - ATTORNEY DECISION
+// SECTION - ATTORNEY'S DECISION
 
 .attorneyDecisionIntro {
   background-color: variables.$colorTertiary;
   padding: 0.5em 1em;
-  margin: 0.5rem 0;
+  margin-bottom: 1rem;
 }
 
 .attorneyDecision {
   &::after {
     position: relative;
-    top: 0.2rem;
     display: inline-block;
     background-size: contain;
     width: 1.5em;
@@ -154,6 +158,7 @@ li::before {
   }
   &__yes {
     &::after {
+      top: 0.2rem;
       content: url(../../images/icon-thumb-up.svg);
     }
   }
