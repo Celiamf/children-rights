@@ -119,6 +119,12 @@
   }
 }
 
+.moreInfo {
+  @media all and (min-width: 768px) {
+    grid-column: auto / span 3;
+  }
+}
+
 .moreInfoWrapper {
   display: flex;
   justify-items: flex-start;

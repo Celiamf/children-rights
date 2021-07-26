@@ -79,7 +79,7 @@ const CountryDetail = (props) => {
             <h3>Precio</h3>
             <span className="passportPrice">{props.country.passportPrice}</span>
           </div>
-          <div>
+          <div className="moreInfo">
             <h3>Más información</h3>
             <div className="moreInfoWrapper">
               <div className="warningSign"></div>
