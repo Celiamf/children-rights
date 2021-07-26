@@ -23,7 +23,7 @@ const CountryDetail = (props) => {
   return (
     <Modal isOpen="true" className="modalContainer">
       <CloseModalBtn></CloseModalBtn>
-      <div className="header">
+      <div className="countryWrapper">
         <section className="countrySection">
           <img
             src={props.country.img}

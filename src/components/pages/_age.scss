@@ -1,6 +1,6 @@
 @use "../../styles/settings/variables";
 
-// GLOBAL SETTINGS
+// -------------- GLOBAL SETTINGS
 
 h3 {
   text-transform: uppercase;
@@ -15,7 +15,7 @@ span {
   padding: 1.5em 1em 3em 1em;
 }
 
-// HEADER
+/// -------------- HEADER
 
 .ageHeader {
   display: flex;
@@ -41,7 +41,7 @@ span {
   }
 }
 
-// MAIN CONTAINER
+// -------------- MAIN CONTAINER
 
 .ageMain {
   @media all and (min-width: 768px) {
@@ -49,6 +49,8 @@ span {
     margin: 0 auto;
   }
 }
+
+// -------------- SECTION - GENERAL
 
 .ageSection {
   display: grid;
@@ -67,7 +69,7 @@ span {
   }
 }
 
-// LIST ICONS SETTINGS
+// -------------- LIST ICONS SETTINGS
 
 ul > li {
   padding: 0 0 0.5em 0;
@@ -82,7 +84,7 @@ li::before {
   margin: 0 0.5rem 0.5rem 0;
 }
 
-// SECTION - RIGHTS DURING THE PROCESS - ICONS
+// -------------- SECTION - RIGHTS DURING THE PROCESS - ICONS
 
 .listIcon {
   &__rightTreatedAsMinor::before {
@@ -99,7 +101,7 @@ li::before {
   }
 }
 
-// SECTION - WHAT IS GOING TO HAPPEN IN THE ATTORNEY OFFICE
+// -------------- SUBSECTIONS
 
 .subsection {
   padding: 1em;
@@ -140,7 +142,7 @@ li::before {
   }
 }
 
-// SECTION - ATTORNEY'S DECISION
+// -------------- SECTION - ATTORNEY'S DECISION
 
 .attorneyDecisionIntro {
   background-color: variables.$colorTertiary;

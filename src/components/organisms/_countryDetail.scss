@@ -1,4 +1,4 @@
-@import "../../styles/settings/variables";
+@use "../../styles/settings/variables";
 
 .modalContainer {
   position: absolute;
@@ -6,17 +6,17 @@
   overflow: auto;
   padding: 1em;
   -webkit-overflow-scrolling: touch;
-  font-size: $fontSmall;
+  font-size: variables.$fontSmall;
   border: 1px solid #ccc;
   border-radius: 4px;
-  background-color: $colorWhite;
+  background-color: variables.$colorWhite;
   @media all and (min-width: 768px) {
     inset: 3rem;
     padding: 3em;
   }
   h3 {
-    font-size: $fontSmall;
-    color: $colorGreyPrimary;
+    font-size: variables.$fontSmall;
+    color: variables.$colorGreyPrimary;
     text-transform: uppercase;
     letter-spacing: -0.03em;
   }
@@ -26,13 +26,13 @@
 }
 
 .sectionTitle {
-  font-size: $fontLarge;
-  color: $colorGreyPrimary;
+  font-size: variables.$fontLarge;
+  color: variables.$colorGreyPrimary;
   text-transform: uppercase;
 }
 
-// -------------- COUNTRY + EMBASSY WRAPPER
-.header {
+// -------------- CONTAINER FOR SECTION 1 + 2
+.countryWrapper {
   display: grid;
   grid-auto-flow: row;
   margin-bottom: 3rem;
@@ -41,7 +41,7 @@
   }
 }
 
-// -------------- SECTION 1 - COUNTRY SECTION
+// -------------- SECTION 1 - COUNTRY NAME + FLAG
 
 .countrySection {
   display: flex;
@@ -52,9 +52,9 @@
   h2 {
     position: relative;
     top: -1.8em;
-    color: $colorBlack;
+    color: variables.$colorBlack;
     font-size: 2.5rem;
-    font-family: $fontTitles;
+    font-family: variables.$fontTitles;
     text-transform: none;
     @media all and (min-width: 768px) {
       font-size: 3.5rem;
@@ -71,7 +71,7 @@
   }
 }
 
-// -------------- SECTION 2 - EMBASSY SECTION
+// -------------- SECTION 2 - EMBASSY INFO
 .embassySection {
   margin-top: 1rem;
   @media all and (min-width: 768px) {
@@ -88,7 +88,7 @@
   padding-top: 1rem;
 }
 
-// -------------- SECTION 3 - PASSPORT SECTION
+// -------------- SECTION 3 - PASSPORT INFO
 .passportSection {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -102,6 +102,7 @@
 .passportPrice {
   font-size: 1.5rem;
   font-weight: 800;
+  color: variables.$colorTertiary;
 }
 
 .passportRequirements {
