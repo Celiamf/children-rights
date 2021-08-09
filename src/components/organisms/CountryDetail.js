@@ -19,7 +19,6 @@ const CountryDetail = (props) => {
     }
   );
 
-  console.log({ props });
   return (
     <Modal isOpen="true" className="modalContainer">
       <CloseModalBtn></CloseModalBtn>
@@ -40,6 +39,7 @@ const CountryDetail = (props) => {
               <a
                 href={props.country.addressLink}
                 target="_blank"
+                rel="noopener noreferrer"
                 title="Dirección de la embajada en Google"
                 className="textLink"
               >
@@ -59,6 +59,7 @@ const CountryDetail = (props) => {
               <a
                 href={props.country.website}
                 target="_blank"
+                rel="noopener noreferrer"
                 title="Visita la web de la Embajada"
                 className="textLink"
               >
