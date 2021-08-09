@@ -16,7 +16,7 @@ Beta version will only be available in Spanish. More languages and content will 
 
 ## Prototype
 
-<img src="./public/prototype_screens.png" alt="App prototype screens" width="640"/>
+<img src="./scr/images/screens.png" alt="App prototype screens" width="640"/>
 
 ## Authors
 
