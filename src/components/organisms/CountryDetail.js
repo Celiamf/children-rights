@@ -47,7 +47,9 @@ const CountryDetail = (props) => {
               </a>
             </span>
             <h3>Teléfono:</h3>
-            <span>{props.country.phone}</span>
+            <a href={`tel:+34${props.country.phone}`}>
+              <span>{props.country.phone}</span>
+            </a>
             <h3>E-mail: </h3>
             <span>
               <a href={`mailto:${props.country.email}`} className="textLink">
